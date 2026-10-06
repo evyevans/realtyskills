@@ -22,6 +22,10 @@ The isolated checkout preserves all three original commits. Git commit, tree, an
 
 At preparation time no release or Actions run existed. The release workflow must succeed before publication is called complete. Its publishing step anonymously downloads and checksums all 45 assets after publication.
 
+The October 6 publishing attempt stopped at its first write request with GitHub HTTP 403, `Resource not accessible by integration`. No remote source commit or release was created. The connection lists no installed GitHub app/account. A prepared local commit and rebuilt downloads are available, but live publication remains pending appropriate integration access.
+
+Local release-publisher tests cover new-release publication, preserving current assets on a repeat run, rejecting a corrupt checksum before any request, and stopping after a single permission-denied request.
+
 ## Limits
 
 The shell cannot resolve GitHub hosts in this environment; the plugin can read and update source. A browser-rendered logged-out repository check is unavailable because browser startup is restricted. Plugin/API inspection alone is not a visual browser check.
