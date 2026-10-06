@@ -4,7 +4,7 @@ description: Prepare a pricing conversation and listing appointment. Use when ag
   focused drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: market-research-and-pricing
   level: starter

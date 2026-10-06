@@ -4,7 +4,7 @@ description: Package a deal for potential buyers. Use when investors, wholesaler
   for a focused drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: deals-and-investment-analysis
   level: starter

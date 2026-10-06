@@ -227,7 +227,7 @@ Deliver partial report with incomplete sections labeled.
 ---
 
 ```
-LANDLORD-TENANT LEGAL RISK ASSESSMENT — Evy Evans
+LANDLORD-TENANT LEGAL RISK ASSESSMENT — Evykynn
 Property:     4821 Maple Ave, Columbus OH 43215
 Situation:    Non-Payment of Rent — 2 months overdue
 State:        Ohio | Governing Statute: ORC Chapter 5321
@@ -356,5 +356,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

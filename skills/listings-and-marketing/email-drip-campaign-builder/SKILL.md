@@ -4,7 +4,7 @@ description: Draft an audience-specific email campaign. Use when agents, teams n
   playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: listings-and-marketing
   level: detailed

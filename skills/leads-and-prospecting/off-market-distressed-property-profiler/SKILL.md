@@ -4,7 +4,7 @@ description: Assess an off-market property and plan respectful outreach. Use whe
   playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: leads-and-prospecting
   level: detailed

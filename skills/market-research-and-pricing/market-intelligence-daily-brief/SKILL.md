@@ -4,7 +4,7 @@ description: Summarize recent market evidence. Use when agents, investors need d
   structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: market-research-and-pricing
   level: detailed

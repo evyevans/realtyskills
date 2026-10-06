@@ -4,7 +4,7 @@ description: Analyze comparable sales and estimate a pricing range. Use when age
   detailed playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: market-research-and-pricing
   level: detailed

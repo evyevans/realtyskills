@@ -221,10 +221,10 @@ Deliver a partial report clearly noting what could not be verified and why.
 ---
 
 ```
-FAIR HOUSING COMPLIANCE AUDIT — Evy Evans
+FAIR HOUSING COMPLIANCE AUDIT — Evykynn
 Content Type:   MLS Listing Description
 Property:       4821 Maple Ave, Columbus OH
-Analyst:        AI assistant via Evy Evans Skill Library
+Analyst:        AI assistant via Evykynn Skill Library
 Date:           May 10, 2026
 
 ━━━━━━━━━━━━━━━━ EXECUTIVE SUMMARY ━━━━━━━━━━
@@ -271,7 +271,7 @@ violations removed and marketing quality preserved]
 
 ━━━━━━━━━━━━━━━━ ADVISORY NOTE ━━━━━━━━━━━━━━
 ⚠️ LEGAL DISCLAIMER: This audit was performed by AI assistant
-via an Evy Evans automated compliance skill. It is intended to
+via an Evykynn automated compliance skill. It is intended to
 assist in identifying potential fair housing concerns — not to
 provide legal advice. For formal fair housing compliance training
 or response to a HUD complaint, consult a licensed real estate
@@ -334,5 +334,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

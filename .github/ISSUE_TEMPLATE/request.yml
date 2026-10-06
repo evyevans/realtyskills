@@ -1,0 +1,21 @@
+name: Suggest a workflow
+description: Suggest a useful real estate task or a market-specific adaptation.
+title: '[Workflow request] '
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What task should the workflow help with?
+      description: Tell us who does it, what information they have, and the result they need.
+    validations:
+      required: true
+  - type: input
+    id: market
+    attributes:
+      label: Market or jurisdiction
+      description: Include the country and state or province if rules or forms matter.
+  - type: textarea
+    id: example
+    attributes:
+      label: Example and sources
+      description: Use fictional data and link authoritative sources where applicable.

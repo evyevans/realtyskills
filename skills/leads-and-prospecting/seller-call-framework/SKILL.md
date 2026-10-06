@@ -4,7 +4,7 @@ description: Prepare a seller discovery call. Use when agents, investors need ca
   task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: leads-and-prospecting
   level: starter

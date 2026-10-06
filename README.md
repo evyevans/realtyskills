@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/realtyskills-banner.svg" alt="RealtySkills — Practical AI skills for real estate professionals. By Evy Evans." width="100%">
+  <img src="assets/realtyskills-banner.svg" alt="RealtySkills — Practical AI skills for real estate. By Evykynn." width="100%">
 </p>
 
 <p align="center">
   <strong>42 practical workflows · 9 categories · Free and open source</strong><br>
   12 starter workflows + 30 detailed playbooks<br>
-  Created and maintained by <a href="https://github.com/evyevans">Evy Evans</a>
+  Created and maintained by <a href="https://github.com/evyevans">Evykynn</a>
 </p>
 
 <p align="center">
@@ -43,6 +43,8 @@ Do not invent amenities, neighborhood claims, or property features.
 ```
 
 See the [first-use walkthrough](docs/getting-started.md) and [worked examples](examples/README.md).
+
+**Just browsing?** You can open any skill here without downloading or installing anything. Start with the listing example, then choose the workflow that matches your next task.
 
 ## What do you need to do?
 
@@ -105,9 +107,9 @@ Every active folder contains a standard `SKILL.md` entry. Detailed playbooks liv
 
 Want to improve a workflow or add a market-specific version? Read [CONTRIBUTING.md](CONTRIBUTING.md), [report an issue](https://github.com/evyevans/realtyskills/issues/new/choose), or open a pull request. Please use synthetic examples and cite authoritative sources for jurisdiction-specific changes.
 
-## About the author
+## About me
 
-I'm **Evy Evans**, an AI engineer sharing reusable workflows for real estate professionals. I built RealtySkills to make useful AI instructions easier to find, understand, and adapt.
+I'm **Evykynn**, an AI engineer sharing reusable workflows for real estate professionals. I built RealtySkills to make useful AI instructions easier to find, understand, and adapt.
 
 If you find a workflow useful, **star the repository** to bookmark it and share the link with a colleague. Tell me which task or market you'd like covered next.
 

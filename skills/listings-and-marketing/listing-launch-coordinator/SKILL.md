@@ -4,7 +4,7 @@ description: Coordinate property preparation and marketing launch. Use when agen
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: listings-and-marketing
   level: detailed

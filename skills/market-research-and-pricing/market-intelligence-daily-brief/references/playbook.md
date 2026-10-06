@@ -286,7 +286,7 @@ PROCEED WITH ANALYSIS AND DRAFTING.
 ---
 
 ```
-MARKET INTELLIGENCE BRIEF — Evy Evans
+MARKET INTELLIGENCE BRIEF — Evykynn
 Market:      Phoenix, AZ Metro (Maricopa County)
 Asset Class: SFR — 3–4BR, $250K–$450K
 Period:      April 2026
@@ -413,5 +413,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

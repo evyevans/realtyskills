@@ -4,7 +4,7 @@
 name: client-follow-up-sequencer
 description: Designs personalized multi-channel follow-up sequences for buyers, sellers, and past clients with timing, channel selection, and ready-to-send message templates.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Client Follow-Up Sequencer

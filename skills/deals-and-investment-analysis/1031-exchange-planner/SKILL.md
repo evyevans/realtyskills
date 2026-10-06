@@ -4,7 +4,7 @@ description: Organize a US 1031 exchange discussion with professionals. Use when
   Use this detailed playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: deals-and-investment-analysis
   level: detailed

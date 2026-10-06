@@ -4,7 +4,7 @@ description: Prepare a representation agreement discussion draft. Use when agent
   this detailed playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: transactions-and-documents
   level: detailed

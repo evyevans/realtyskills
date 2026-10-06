@@ -4,7 +4,7 @@ description: Prepare a recruiting conversation and outreach plan. Use when team 
   starter for a focused drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: brokerage-operations-and-crm
   level: starter

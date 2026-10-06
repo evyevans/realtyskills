@@ -209,11 +209,11 @@ Deliver partial report with clearly labeled INCOMPLETE sections.
 ---
 
 ```
-LICENSE & DISCLOSURE COMPLIANCE REPORT — Evy Evans
+LICENSE & DISCLOSURE COMPLIANCE REPORT — Evykynn
 Licensee:       Marcus Johnson, Broker
 State:          Ohio
 Date:           May 10, 2026
-Analyst:        AI assistant via Evy Evans Skill Library
+Analyst:        AI assistant via Evykynn Skill Library
 
 ━━━━━━━━━━━━━━━━ COMPLIANCE DASHBOARD ━━━━━━━
 LICENSE RENEWAL:     🟡 YELLOW — 386 days remaining
@@ -326,5 +326,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

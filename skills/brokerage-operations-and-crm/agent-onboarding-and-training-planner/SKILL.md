@@ -4,7 +4,7 @@ description: Build a 90-day agent onboarding plan. Use when team leads, brokerag
   playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: brokerage-operations-and-crm
   level: detailed

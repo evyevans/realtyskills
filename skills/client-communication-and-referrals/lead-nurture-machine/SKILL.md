@@ -4,7 +4,7 @@ description: Create a buyer or seller nurture sequence. Use when agents, teams n
   task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: client-communication-and-referrals
   level: starter

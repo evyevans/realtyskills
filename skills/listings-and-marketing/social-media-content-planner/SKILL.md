@@ -4,7 +4,7 @@ description: Plan a month of real estate social content. Use when agents, teams 
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: listings-and-marketing
   level: detailed

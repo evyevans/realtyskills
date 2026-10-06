@@ -4,7 +4,7 @@ description: Stay in touch with past clients and request referrals. Use when age
   Use this starter for a focused drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: client-communication-and-referrals
   level: starter

@@ -247,10 +247,10 @@ PROCEED WITH ANALYSIS AND DRAFTING — deliver the complete exchange plan.
 ---
 
 ```
-1031 EXCHANGE PLAN — Evy Evans
+1031 EXCHANGE PLAN — Evykynn
 Relinquished Property: 100 Oak St, Columbus OH
 Closing Date:          05/15/2026
-Analyst:               AI assistant via Evy Evans Skill Library
+Analyst:               AI assistant via Evykynn Skill Library
 
 ━━━━━━━━━━━━━━━━ CRITICAL DEADLINES ━━━━━━━━━
 🗓️ 45-Day Identification Deadline:  06/29/2026 (Monday)
@@ -359,5 +359,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

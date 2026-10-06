@@ -297,7 +297,7 @@ PROCEED WITH ANALYSIS AND DRAFTING.
 ---
 
 ```
-NEIGHBORHOOD INVESTMENT CLIMATE REPORT — Evy Evans
+NEIGHBORHOOD INVESTMENT CLIMATE REPORT — Evykynn
 Neighborhood:    Vine City, Atlanta, GA
 Strategy:        BRRRR — 3BR SFR, 5–7 year hold
 Deal Context:    $145,000 acquisition / 3/2 / 1,200 sqft
@@ -423,5 +423,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

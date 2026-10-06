@@ -4,7 +4,7 @@ description: Draft respectful outreach for a seller lead. Use when investors, ag
   analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: leads-and-prospecting
   level: detailed

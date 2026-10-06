@@ -4,7 +4,7 @@ description: Build a multifamily income and expense projection. Use when investo
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: deals-and-investment-analysis
   level: detailed

@@ -4,7 +4,7 @@ description: Draft FSBO, expired, or seller outreach scripts. Use when agents, i
   drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: leads-and-prospecting
   level: starter

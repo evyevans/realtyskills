@@ -211,7 +211,7 @@ Provide the general deployment framework and note which steps are platform-speci
 ---
 
 ```
-EMAIL DRIP CAMPAIGN — Evy Evans
+EMAIL DRIP CAMPAIGN — Evykynn
 Audience:  Active Buyer Leads — Pre-Approved, Searching 3+ Months
 Market:    Columbus, OH
 Goal:      Schedule a showing appointment
@@ -345,5 +345,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

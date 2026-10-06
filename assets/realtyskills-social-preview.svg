@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="banner-title banner-description">
   <title id="banner-title">RealtySkills — AI skills for real estate</title>
-  <desc id="banner-description">A minimalist ivory banner with the RealtySkills wordmark in charcoal, the line Practical AI skills for real estate, and a small original-style gold mirrored logo beside Evy Evans. Forty-two skills, nine categories, open source.</desc>
+  <desc id="banner-description">A minimalist ivory banner with the RealtySkills wordmark in charcoal, the line Practical AI skills for real estate, and a small original-style gold mirrored logo beside Evykynn. Forty-two skills, nine categories, open source.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#fdfdfb"/>
@@ -26,6 +26,6 @@
       <text x="479" y="541">OPEN SOURCE</text>
     </g>
     <use href="#evy-monogram" x="941" y="512" width="79" height="50"/>
-    <text x="1040" y="543" fill="#50534b" font-size="19" font-weight="400" letter-spacing="-0.2">Evy Evans</text>
+    <text x="1040" y="543" fill="#50534b" font-size="19" font-weight="400" letter-spacing="-0.2">Evykynn</text>
   </g>
 </svg>

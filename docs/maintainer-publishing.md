@@ -1,77 +1,46 @@
-# Publishing RealtySkills
+# Maintaining and publishing RealtySkills
 
-These steps are for Evy Evans, the repository owner. The intended public address is `https://github.com/evyevans/realtyskills`. A written target URL is not evidence that the repository exists or is public.
+The public library is [evyevans/realtyskills](https://github.com/evyevans/realtyskills), owned by `evyevans`. Public author credits use Evykynn; the MIT copyright notice retains its existing legal attribution.
 
-## Account and authentication
+## Update the existing repository
 
-Before publication, confirm the account is unrestricted. If a previous suspension remains unresolved, contact GitHub through its [appeal and reinstatement process](https://docs.github.com/en/site-policy/acceptable-use-policies/github-appeal-and-reinstatement) before publishing. Technical authentication success alone does not establish that an earlier restriction is resolved.
-
-The recommended authentication route is GitHub CLI's official browser flow. Run in your own terminal:
+Clone the existing repository rather than creating a new Git history:
 
 ```bash
-gh auth login --hostname github.com --git-protocol https --web --scopes workflow
-gh api user --jq .login
+git clone https://github.com/evyevans/realtyskills.git
+cd realtyskills
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/render_catalog.py --check
+python3 scripts/validate_library.py
+python3 scripts/build_releases.py
 ```
 
-The second command must show `evyevans`. Do not print, paste into a chat, or commit the stored token. The extra `workflow` scope permits publishing the repository's GitHub Actions file. See [GitHub CLI authentication](https://cli.github.com/manual/gh_auth_login).
+Inspect the branch, remote, repository instructions, and existing changes before editing. Preserve remote edits, use ordinary commits, and honor branch protections. Never force-push or bypass secret protection. Stage only public source paths; exclude `dist/`, credentials, caches, local history, and agent settings.
 
-If you specifically need a token instead, use [GitHub's fine-grained token creation page](https://github.com/settings/personal-access-tokens/new) and [official token guidance](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Prefer a short expiration and access limited to this repository after creating it in the browser. Contents write is needed to push and upload release assets; Workflows write is needed for workflow files; Administration write is needed to change repository settings and topics. Fine-grained repository creation has separate permission requirements. Choose only what your intended operation requires; browser login avoids needing to configure these permissions for this launch. Do not send a token to an assistant.
+## Release publication
 
-## Prepare locally
+**Library checks** validates source updates. **Publish verified release** validates and builds 44 ZIPs, publishes them and `SHA256SUMS.txt` in Releases, and anonymously downloads and checksums every asset.
 
-From the project folder, run validation and packaging using the Python environment described in [installation](installation.md). Inspect the README, catalog, and examples. The bundle excludes `.remember`, local agent settings, credentials, Git internals, and build caches.
+The publishing job uses GitHub's repository token with `contents: write`. It needs no personal token stored in source. It runs on `main` when its workflow, publisher script, release notes, or verification record changes. It can also be run through **Actions → Publish verified release → Run workflow**.
 
-Initialize Git from your own terminal if it is not already initialized. These commands create a local repository and commit only the public allowlisted paths:
+The publisher inspects releases, keeps matching assets, and replaces only differing named downloads. Unknown assets remain untouched. Existing public assets are downloaded and inspected before replacement; backup bytes remain in the runner's `release-backups/` directory during the job. An existing draft with differing assets requires manual inspection. Any API error stops publication without retry.
 
-```bash
-git init -b main
-git config --local user.name "Evy Evans"
-git config --local user.email "evyevans@users.noreply.github.com"
-git add README.md LICENSE CONTRIBUTING.md CHANGELOG.md catalog.json requirements-dev.txt .gitignore skills docs examples archive assets scripts .github
-git diff --cached --stat
-git diff --cached --check
-git commit -m "Launch RealtySkills: 42 real estate AI workflows"
-```
+The current publisher is explicitly for `v1.0.0`. For a new version, update the catalog, release notes, publisher version checks, filenames, and workflow concurrency group together.
 
-If Git is already initialized, inspect its branch, status, and remotes before using these instructions. Do not reset or overwrite existing history. This session's filesystem policy prevented `.git` initialization; it did not prevent building the resource files.
+## Repository presentation
 
-## Create and publish one repository
+Use the gear beside **About** to set:
 
-Check `https://github.com/evyevans/realtyskills` in your browser before creating it. If it already exists, inspect its contents and ownership before connecting this project. Do not overwrite an existing project. If it is available:
+> 42 free AI workflows for real estate professionals. Listing copy, lead follow-ups, market research, investment analysis, and more. By Evykynn.
 
-```bash
-gh repo create evyevans/realtyskills --public --source . --remote origin --description "Free real estate AI skills by Evy Evans: 42 workflows for agents, investors, property managers, and brokerage teams."
-git push -u origin main
-```
+Topics: `real-estate`, `ai-skills`, `agent-skills`, `claude-skills`, `llm`, `property-management`, `prompt-engineering`, `open-source`.
 
-Run each command once and inspect its result. Stop on authentication failures, account restrictions, unexpected ownership, or rate-limit responses; resolve the stated cause before retrying. Do not use force pushes for this launch.
+Under **Settings → General → Social preview → Edit → Upload an image**, select `assets/realtyskills-social-preview.png`.
 
-Add relevant search topics after the push succeeds:
+## Account and API errors
 
-```bash
-gh repo edit evyevans/realtyskills --add-topic real-estate --add-topic ai-skills --add-topic agent-skills --add-topic claude-skills --add-topic llm --add-topic prompt-engineering --add-topic property-management --add-topic real-estate-agents
-```
+Do not send passwords, tokens, or device codes into chat. If authentication fails after connectivity is confirmed, use GitHub CLI's browser login in your own terminal and verify the account is `evyevans`.
 
-## Release and verify
+Authentication success does not resolve an existing suspension. Stop on restriction or rate-limit responses. GitHub provides an [appeal and reinstatement process](https://docs.github.com/en/site-policy/acceptable-use-policies/github-appeal-and-reinstatement).
 
-Wait for the Library checks workflow to finish successfully. Create the release, then upload each of the 44 ZIPs and `SHA256SUMS.txt` **one at a time**, checking each result. For example:
-
-```bash
-gh release create v1.0.0 --repo evyevans/realtyskills --target main --title "RealtySkills v1.0.0 — Real Estate AI Skills by Evy Evans" --notes-file docs/release-notes-v1.0.0.md
-gh release upload v1.0.0 dist/realtyskills-v1.0.0.zip --repo evyevans/realtyskills
-gh release upload v1.0.0 dist/realtyskills-chat-guides-v1.0.0.zip --repo evyevans/realtyskills
-```
-
-Upload the individual skill ZIPs and checksum file the same way. Leave at least one second between uploads. Stop on errors rather than repeating a failed request. The CLI also supports uploading multiple assets in one command, but sequential uploads make it easier to observe and handle errors for this launch.
-
-Verify from a logged-out or private browser window that the repository, README links, examples, and release downloads are accessible. Download one starter and one detailed ZIP, verify their checksums, and confirm each contains its entry and any references.
-
-Update the release notes with the actual publication and GitHub Actions results. Then use the [LinkedIn announcement draft](linkedin-launch.md).
-
-## Policy basis and limits
-
-GitHub's [Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) permit project-related promotional text in a README and prohibit fake engagement, rank abuse, spam, privacy violations, and excessive bulk activity. Publish useful project material and invite voluntary feedback. Do not automate starring, following, or promotional messages to other repositories.
-
-GitHub's [API best practices](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api) advise sequential requests, pauses between large numbers of writes, and respecting rate-limit responses. Repeatedly ignoring errors can lead to enforcement.
-
-These steps follow documented publishing practices. No token type, request schedule, or assistant can guarantee an account will never be restricted. Only GitHub can determine account standing and resolve a prior suspension.
+Follow GitHub's [API best practices](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api) and [Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies). Do not automate stars, follows, spam, or unsolicited promotional messages. No publishing method guarantees freedom from account enforcement.

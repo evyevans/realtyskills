@@ -4,7 +4,7 @@ description: Surface transaction risks and missing evidence. Use when agents, in
   playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: compliance-and-risk
   level: detailed

@@ -4,7 +4,7 @@ description: Practice responding to a buyer or seller objection. Use when agents
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: client-communication-and-referrals
   level: detailed

@@ -4,7 +4,7 @@
 name: social-media-content-planner
 description: Generates a complete 30-day social media calendar with post copy, hashtags, visual prompts, and engagement strategies for real estate agents across all platforms.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Social Media Content Planner

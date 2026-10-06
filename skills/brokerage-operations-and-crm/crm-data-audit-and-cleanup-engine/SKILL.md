@@ -4,7 +4,7 @@ description: Audit a CRM export and propose cleanup. Use when agents, teams need
   playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: brokerage-operations-and-crm
   level: detailed

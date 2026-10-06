@@ -265,7 +265,7 @@ PROCEED WITH ANALYSIS AND DRAFTING — deliver the complete report.
 
 ```python
 # Rental Property Underwriting Model
-# Evy Evans | AI assistant Skill Library | May 2026
+# Evykynn | AI assistant Skill Library | May 2026
 
 def underwrite_rental(
     purchase_price: float,
@@ -348,7 +348,7 @@ result = underwrite_rental(
 ---
 
 ```
-RENTAL PROPERTY UNDERWRITING ANALYSIS — Evy Evans
+RENTAL PROPERTY UNDERWRITING ANALYSIS — Evykynn
 Property:     4821 Maple Ave, Columbus OH 43215 (Duplex)
 Purchase:     $220,000 | Down: 25% ($55,000) | Rate: 7.25%
 Date:         May 10, 2026
@@ -459,5 +459,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

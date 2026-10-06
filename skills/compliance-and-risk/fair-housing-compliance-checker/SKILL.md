@@ -4,7 +4,7 @@ description: Review housing marketing for discrimination risks. Use when agents,
   this detailed playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: compliance-and-risk
   level: detailed

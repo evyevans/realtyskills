@@ -4,7 +4,7 @@ description: Draft a response to a client objection. Use when agents need respon
   task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: client-communication-and-referrals
   level: starter

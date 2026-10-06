@@ -4,7 +4,7 @@ description: Evaluate a wholesale deal and exit strategy. Use when investors, wh
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: deals-and-investment-analysis
   level: detailed

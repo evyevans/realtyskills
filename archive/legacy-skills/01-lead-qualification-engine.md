@@ -4,7 +4,7 @@
 name: lead-qualification-engine
 description: Scores and prioritizes incoming buyer and seller leads based on readiness, budget, timeline, and behavioral signals to focus agent time on highest-probability clients.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Lead Qualification Engine

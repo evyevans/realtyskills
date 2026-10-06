@@ -270,7 +270,7 @@ If owner limit is unknown, default to $500 and flag: "Assumed $500 owner authori
 ---
 
 ```
-WORK ORDER #WO-20260510-2B — Evy Evans
+WORK ORDER #WO-20260510-2B — Evykynn
 ─────────────────────────────────────────────────────
 Property: 4821 Maple Ave, Unit 2B, Columbus OH 43215
 Date:     05/10/2026 | Priority: URGENT | Status: OPEN
@@ -362,5 +362,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

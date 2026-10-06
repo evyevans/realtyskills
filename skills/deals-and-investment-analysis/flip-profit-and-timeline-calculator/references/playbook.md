@@ -243,7 +243,7 @@ If any required calculation is missing, restate what data gap prevented completi
 
 ```python
 # Fix & Flip Full Cost Stack Calculator
-# Evy Evans | AI assistant Skill Library | May 2026
+# Evykynn | AI assistant Skill Library | May 2026
 
 def calculate_flip_deal(
     purchase_price: float,
@@ -354,12 +354,12 @@ result = calculate_flip_deal(
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║         FIX & FLIP PROFIT ANALYSIS — Evy Evans             ║
+║         FIX & FLIP PROFIT ANALYSIS — Evykynn             ║
 ╚══════════════════════════════════════════════════════════════╝
 
 Property:       4821 Maple Ave, Columbus OH 43215
 Analysis Date:  May 10, 2026
-Analyst:        AI assistant via Evy Evans Skill Library
+Analyst:        AI assistant via Evykynn Skill Library
 
 ━━━━━━━━━━━━━━━━ DEAL INPUTS ━━━━━━━━━━━━━━━━
 Purchase Price:          $135,000
@@ -502,5 +502,6 @@ Before delivering any output, Claude must internally verify every item below. Do
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

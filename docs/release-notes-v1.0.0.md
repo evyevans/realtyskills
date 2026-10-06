@@ -1,6 +1,6 @@
 # RealtySkills v1.0.0
 
-Practical AI skills for real estate professionals, created and maintained by Evy Evans.
+Practical AI skills for real estate professionals, created and maintained by Evykynn.
 
 - 42 active workflows: 12 starters and 30 detailed playbooks.
 - Nine categories organized around real estate tasks.

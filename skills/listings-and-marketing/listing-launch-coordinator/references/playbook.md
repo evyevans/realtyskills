@@ -265,7 +265,7 @@ Use the standard benchmarks and note: "Adjust thresholds based on your specific 
 ---
 
 ```
-LISTING LAUNCH PLAN — Evy Evans
+LISTING LAUNCH PLAN — Evykynn
 Property:      4821 Maple Ave, Columbus OH 43215
 List Price:    $285,000
 Listing Signed: 05/10/2026 | MLS Go-Live: 05/24/2026
@@ -366,5 +366,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

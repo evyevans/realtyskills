@@ -229,7 +229,7 @@ Provide the qualitative ranking and reallocation logic without exact dollar proj
 
 ```python
 # Lead Source ROI Attribution Calculator
-# Evy Evans | AI assistant Skill Library | May 2026
+# Evykynn | AI assistant Skill Library | May 2026
 
 def calculate_lead_source_roi(sources: list[dict]) -> list[dict]:
     """
@@ -285,7 +285,7 @@ report = calculate_lead_source_roi(sources)
 ---
 
 ```
-LEAD SOURCE ROI ATTRIBUTION REPORT — Evy Evans
+LEAD SOURCE ROI ATTRIBUTION REPORT — Evykynn
 Period:         Q1 2026 (January – March 2026)
 Agent/Team:     Marcus Johnson / Maple Realty Group
 Total Lead Spend: $11,400/quarter
@@ -386,5 +386,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

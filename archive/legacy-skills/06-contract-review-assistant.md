@@ -4,7 +4,7 @@
 name: contract-review-assistant
 description: Reviews purchase agreements, listing contracts, and addenda for red flags, missing clauses, and negotiation opportunities with clause-by-clause risk scoring.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Contract Review Assistant

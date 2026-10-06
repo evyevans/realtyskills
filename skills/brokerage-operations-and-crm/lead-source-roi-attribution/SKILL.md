@@ -4,7 +4,7 @@ description: Compare lead-source spending and results. Use when team leads, brok
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: brokerage-operations-and-crm
   level: detailed

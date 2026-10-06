@@ -1,6 +1,6 @@
 # Archived versions
 
-These seven files are older versions of tasks covered by active detailed playbooks. They are preserved for reference with Evy Evans attribution and normalized example contact addresses.
+These seven files are older versions of tasks covered by active detailed playbooks. They are preserved for reference with Evykynn attribution and normalized example contact addresses.
 
 They are excluded from the 42-skill count and individual installable packages. Use the [active catalog](../docs/catalog.md) for maintained entries. Do not install archived entries alongside active versions with similar names.
 

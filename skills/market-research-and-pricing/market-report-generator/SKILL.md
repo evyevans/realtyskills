@@ -4,7 +4,7 @@ description: Explain local market statistics to clients. Use when agents, teams 
   drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: market-research-and-pricing
   level: starter

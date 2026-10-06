@@ -229,7 +229,7 @@ Deliver partial report with missing sections clearly labeled.
 
 ```python
 # Transaction Deadline Calculator
-# Evy Evans | AI assistant Skill Library | May 2026
+# Evykynn | AI assistant Skill Library | May 2026
 
 from datetime import date, timedelta
 
@@ -297,11 +297,11 @@ timeline = calculate_transaction_timeline(
 ---
 
 ```
-TRANSACTION COORDINATOR TIMELINE — Evy Evans
+TRANSACTION COORDINATOR TIMELINE — Evykynn
 Property:       4821 Maple Ave, Columbus OH 43215
 Purchase Price: $285,000 | Loan: Conventional
 Execution Date: 05/10/2026 | Closing Date: 06/15/2026
-Analyst:        AI assistant via Evy Evans Skill Library
+Analyst:        AI assistant via Evykynn Skill Library
 
 🚨 HIGH-RISK DEADLINES — NEVER MISS THESE
   05/14 (Thu)  EMD DUE — $5,000 to Midland Title
@@ -404,5 +404,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

@@ -1,0 +1,28 @@
+name: Report a problem
+description: Broken links, unclear instructions, incorrect assumptions, or jurisdiction corrections.
+title: '[Skill issue] '
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill or page
+      description: Name or link to the affected workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened and what should happen?
+      description: Explain the task in plain language. Include country or region if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Fictional example or authoritative source
+      description: Use synthetic or redacted information. Never include client records, credentials, or private documents.
+  - type: input
+    id: tool
+    attributes:
+      label: AI tool and usage method
+      placeholder: 'For example: Claude chat attachment, or Codex local installation'

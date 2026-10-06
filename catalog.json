@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "author": "Evy Evans",
+  "author": "Evykynn",
   "categories": {
     "leads-and-prospecting": "Leads and prospecting",
     "listings-and-marketing": "Listings and marketing",
@@ -764,5 +764,6 @@
       "path": "archive/legacy-skills/07-social-media-content-planner.md",
       "source_sha256": "a421fad5baaf75c340396f6272f748738c0df5cf8fd5dbe26a3cafe18ea7784c"
     }
-  ]
+  ],
+  "name": "RealtySkills"
 }

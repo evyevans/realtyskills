@@ -218,12 +218,12 @@ Deliver partial report with incomplete sections labeled and explain what additio
 ---
 
 ```
-TRANSACTION RISK ASSESSMENT — Evy Evans
+TRANSACTION RISK ASSESSMENT — Evykynn
 Property:       4821 Maple Ave, Columbus OH 43215
 Purchase Price: $285,000
 Parties:        Buyer: Maple Capital LLC | Seller: John Smith
 Date:           May 10, 2026
-Analyst:        AI assistant via Evy Evans Skill Library
+Analyst:        AI assistant via Evykynn Skill Library
 
 ━━━━━━━━━━━━━━━━ OVERALL RISK RATING ━━━━━━━
 ⚠️ MEDIUM RISK — Proceed with verification of flagged items
@@ -339,5 +339,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

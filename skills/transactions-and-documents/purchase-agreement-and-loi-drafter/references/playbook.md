@@ -272,7 +272,7 @@ ___________________________     Date: __________
 Seller: Mary Smith
 
 ⚠️ ATTORNEY REVIEW: This document was drafted by AI assistant
-via Evy Evans skill. Have a licensed Ohio real estate attorney
+via Evykynn skill. Have a licensed Ohio real estate attorney
 review the final PSA before execution.
 ```
 
@@ -337,5 +337,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

@@ -236,7 +236,7 @@ Deliver the cleanup findings and action plan even if the cleaned file cannot be 
 
 ```python
 # CRM Duplicate Detection — Phone & Email Matching
-# Evy Evans | AI assistant Skill Library | May 2026
+# Evykynn | AI assistant Skill Library | May 2026
 
 import csv
 from collections import defaultdict
@@ -291,11 +291,11 @@ print(f"Duplicate phones found: {results['total_phone_dupes']}")
 ---
 
 ```
-CRM DATA AUDIT REPORT — Evy Evans
+CRM DATA AUDIT REPORT — Evykynn
 CRM Platform:   Follow Up Boss
 Export Date:    May 10, 2026
 Total Records:  3,847
-Analyst:        AI assistant via Evy Evans Skill Library
+Analyst:        AI assistant via Evykynn Skill Library
 
 ━━━━━━━━━━━━━━━━ DATA HEALTH SCORE ━━━━━━━━━
 Overall:       62/100 — NEEDS SIGNIFICANT CLEANUP
@@ -388,5 +388,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

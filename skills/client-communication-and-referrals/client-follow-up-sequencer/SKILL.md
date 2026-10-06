@@ -4,7 +4,7 @@ description: Build a personalized follow-up schedule. Use when agents, teams nee
   analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: client-communication-and-referrals
   level: detailed

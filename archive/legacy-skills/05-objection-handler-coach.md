@@ -4,7 +4,7 @@
 name: objection-handler-coach
 description: Provides response frameworks for common buyer and seller objections with psychology-based rebuttals, practice scenarios, and confidence-building drills.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Objection Handler Coach

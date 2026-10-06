@@ -260,7 +260,7 @@ Generate the standard milestones with calibration note: "Adjust milestones based
 ---
 
 ```
-90-DAY AGENT ONBOARDING PLAN — Evy Evans
+90-DAY AGENT ONBOARDING PLAN — Evykynn
 Agent:        Sarah Chen | New Licensee
 Brokerage:    Maple Realty Group
 Start Date:   06/01/2026
@@ -338,7 +338,7 @@ Before delivering any output, Claude must internally verify every item below:
 |----------|------------------------|
 | Agent's license is not yet active at start date | Add to Week 1: "⚠️ License activation is the first priority. Agent cannot show property, write offers, or engage in licensed activities until their license is active with the brokerage. Complete MLS application same day license activates." |
 | Agent has no sphere of influence (relocated from another city) | Replace sphere-based activities with geographic farm prospecting: door-knocking, open houses every weekend, Zillow lead acquisition. Adjust production milestones down by 30 days. |
-| Agent wants to specialize in investment properties | Incorporate: PropStream training, investor networking events, CCIM or RPAI introductory coursework, and the Evy Evans wholesale deal analyzer and rental underwriting skills. |
+| Agent wants to specialize in investment properties | Incorporate: PropStream training, investor networking events, CCIM or RPAI introductory coursework, and the Evykynn wholesale deal analyzer and rental underwriting skills. |
 | Agent is not meeting 30-day milestones | Flag for broker intervention: "The agent is below production expectations at Day 30. Schedule a 1:1 immediately to identify blockers. Common causes: technology not operational, lack of daily prospecting habit, or unclear value proposition." |
 | Agent requests customization not covered in plan | "Add to the plan: [specific request]. Note that any deviation from the standard 12-week curriculum should be discussed with the broker to ensure compliance training is not skipped." |
 | Legal or compliance concern | ⚠️ LEGAL FLAG: "New licensees must complete all required state-mandated post-license education within the period specified by their state licensing board. Failure to complete post-license education results in license lapse." |
@@ -360,5 +360,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

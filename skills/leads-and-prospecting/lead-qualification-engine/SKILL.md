@@ -4,7 +4,7 @@ description: Prioritize incoming buyer and seller leads. Use when agents, teams 
   analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: leads-and-prospecting
   level: detailed

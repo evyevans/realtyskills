@@ -4,7 +4,7 @@ description: Draft tenant or owner communications. Use when property managers ne
   drafting task.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: property-management
   level: starter

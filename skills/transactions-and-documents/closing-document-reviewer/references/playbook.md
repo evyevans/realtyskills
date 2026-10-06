@@ -222,10 +222,10 @@ Deliver partial report with missing audit areas clearly labeled as INCOMPLETE an
 ---
 
 ```
-CLOSING DOCUMENT AUDIT REPORT — Evy Evans
+CLOSING DOCUMENT AUDIT REPORT — Evykynn
 Property:      4821 Maple Ave, Columbus OH 43215
 Closing Date:  June 15, 2026
-Analyst:       AI assistant via Evy Evans Skill Library
+Analyst:       AI assistant via Evykynn Skill Library
 Documents Reviewed: Closing Disclosure (dated June 10, 2026)
                     Title Commitment (Midland Title, File #2026-4821)
 
@@ -346,5 +346,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

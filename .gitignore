@@ -1,0 +1,16 @@
+.DS_Store
+.remember/
+.env
+.env.*
+!.env.example
+*token*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/
+dist/
+release-backups/
+.agents/
+.claude/
+.codex/

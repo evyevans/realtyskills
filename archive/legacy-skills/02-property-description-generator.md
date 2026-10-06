@@ -4,7 +4,7 @@
 name: property-description-generator
 description: Creates compelling, MLS-ready property listings with headline formulas, emotional hooks, and multi-platform variants from property details.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Property Description Generator

@@ -4,7 +4,7 @@
 name: market-analysis-reporter
 description: Creates professional Comparative Market Analysis reports with comps, pricing adjustments, and market trend context for listing presentations.
 version: "1.0"
-author: Evy Evans
+author: Evykynn
 ---
 
 # Market Analysis Reporter

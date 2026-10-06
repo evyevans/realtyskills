@@ -1,32 +1,41 @@
-# Local verification record
+# Verification record
 
-Prepared October 5, 2026. Publication has not been completed in this session.
+Launch checks prepared October 6, 2026. Local checks and live publication are recorded separately.
 
-## Completed checks
+## Local checks
 
-- 42 active workflows and seven archived files accounted for against all 49 original source files.
-- Nine category counts, catalog entries, related workflow identifiers, and original source hashes checked.
-- All 42 packages passed the bundled local Codex skill-creator validator.
-- Valid YAML metadata, internal Markdown links and heading links, detailed references, updated attribution, and recognizable credential patterns checked.
-- GitHub workflow triggers, read-only token permissions, issue templates, and Python script syntax checked locally.
-- 44 ZIPs built with byte comparisons and archive-integrity checks, plus matching SHA-256 checksums. Private local history, credentials, Git internals, and caches excluded.
-- Rental example arithmetic independently recomputed: monthly payment USD 1,348.99; annual debt service USD 16,187.86; after-reserve annual cash flow USD 2,232.14.
+- 42 active workflows, 12 starters, 30 detailed playbooks, nine categories, and seven archived files account for all 49 source mappings.
+- Catalog freshness, YAML metadata, local Markdown links and anchors, package references, and recognizable credential patterns pass.
+- All 44 ZIPs are built with fixed timestamps, checked for integrity, and compared against intended source bytes. SHA-256 checksums cover every ZIP.
+- Release publication separately validates the complete expected asset inventory.
+- Source staging excludes private history, credentials, caches, agent settings, generated downloads, and upload helpers.
+- Gold logo bytes and placement are unchanged. SVGs change only name text; PNG pixel changes are confined to that area. The social PNG is 1280 × 640 and under 1 MB.
+- Rental example arithmetic was previously recomputed: monthly payment USD 1,348.99; annual debt service USD 16,187.86; after-reserve annual cash flow USD 2,232.14.
 
-## Checks limited by this session
+## Live repository inspection
 
-- GitHub CLI could not connect to `api.github.com`. An authentication-status error therefore does not establish the account's standing or the validity of the stored credential.
-- Project Git initialization was denied by the filesystem policy; no local commit or remote push was made.
-- A local Codex discovery check was attempted in an isolated temporary project, but app-server startup was denied by the filesystem policy before it returned a skill list. Actual skill discovery remains unverified here.
-- Claude upload, live LLM execution, GitHub Actions execution, public repository availability, and logged-out downloads have not been tested.
+The GitHub plugin confirms the public repository is owned by `evyevans`, the connected account has write/admin permissions, and `main` is its default branch.
 
-Installation instructions were checked against the linked official documentation; structural validation is not a substitute for live behavior verification. Worked examples are hand-authored demonstrations. Professional accuracy and jurisdiction-specific requirements need current evidence and appropriate review.
+The pre-launch inspection found all 42 workflows correctly located, 104 matching prepared public files, six differing files, and eight missing files. No duplicate category or enclosing upload folders existed. The upload included release downloads and a Python cache file, and omitted `.github/` and `.gitignore`.
 
-## Reproduce structural checks
+The isolated checkout preserves all three original commits. Git commit, tree, and blob hashes were verified, and Git object integrity checks passed. Updates preserve existing history.
+
+At preparation time no release or Actions run existed. The release workflow must succeed before publication is called complete. Its publishing step anonymously downloads and checksums all 45 assets after publication.
+
+## Limits
+
+The shell cannot resolve GitHub hosts in this environment; the plugin can read and update source. A browser-rendered logged-out repository check is unavailable because browser startup is restricted. Plugin/API inspection alone is not a visual browser check.
+
+About, topics, and social-preview settings require repository UI access when no settings-capable tool is available.
+
+Live Claude/Codex discovery and model execution have not been tested. Worked examples are illustrative. Structural checks do not establish professional accuracy or jurisdiction-specific compliance.
+
+## Reproduce
 
 ```bash
-python scripts/render_catalog.py --check
-python scripts/validate_library.py
-python scripts/build_releases.py
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/render_catalog.py --check
+python3 scripts/validate_library.py
+python3 scripts/build_releases.py
+python3 scripts/publish_release.py --verify-only
 ```
-
-Use the development environment in [installation](installation.md). Follow [maintainer publishing](maintainer-publishing.md) once account status and authentication are confirmed, then update this record with actual external results.

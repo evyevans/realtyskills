@@ -4,7 +4,7 @@ description: Evaluate neighborhood investment conditions. Use when investors nee
   detailed playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: market-research-and-pricing
   level: detailed

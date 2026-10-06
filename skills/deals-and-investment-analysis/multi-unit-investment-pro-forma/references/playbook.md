@@ -244,7 +244,7 @@ Produce the sensitivity analysis with the available data and note which inputs m
 ---
 
 ```
-MULTI-UNIT INVESTMENT PRO FORMA — Evy Evans
+MULTI-UNIT INVESTMENT PRO FORMA — Evykynn
 Property:     100 Elm Street, Columbus OH (24-Unit Apartment)
 Purchase:     $2,400,000 | Equity: $720,000 | Loan: $1,680,000
 Date:         May 10, 2026
@@ -360,5 +360,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

@@ -4,7 +4,7 @@ description: Create a transaction checklist from signed deadlines. Use when agen
   detailed playbook for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: transactions-and-documents
   level: detailed

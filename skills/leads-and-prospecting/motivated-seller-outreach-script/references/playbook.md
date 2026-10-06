@@ -247,7 +247,7 @@ Produce the confirmation templates with [DATE/TIME] placeholder for manual fill 
 ---
 
 ```
-MOTIVATED SELLER OUTREACH PACKAGE — Evy Evans
+MOTIVATED SELLER OUTREACH PACKAGE — Evykynn
 Seller: Robert | Property: 4821 Maple Ave, Columbus OH
 Motivation: Pre-foreclosure (NOD filed 60 days ago)
 Your Name/Company: Marcus / Maple Capital LLC
@@ -438,5 +438,6 @@ Before delivering any output, Claude must internally verify every item below:
 
 ---
 
-*Authored by Evy Evans | Real Estate Agentic Automation*  
-*Maintained as part of RealtySkills by Evy Evans. Example dates and figures are illustrative.*
+*Authored by Evykynn | Real Estate Agentic Automation*
+
+*Maintained as part of RealtySkills by Evykynn. Example dates and figures are illustrative.*

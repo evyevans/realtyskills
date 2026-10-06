@@ -4,7 +4,7 @@ description: Turn a maintenance request into a work order. Use when property man
   for structured analysis.
 license: MIT
 metadata:
-  author: Evy Evans
+  author: Evykynn
   version: 1.0.0
   category: property-management
   level: detailed
