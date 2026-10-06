@@ -63,6 +63,7 @@ def main():
         except HTTPError as error:
             # Stop after the first failed request, including account and rate restrictions.
             detail = error.read().decode(errors='replace')
+            error.close()
             raise SystemExit(f'GitHub request failed ({error.code}): {detail}') from error
         if method != 'GET':
             time.sleep(1)
