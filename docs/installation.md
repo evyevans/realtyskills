@@ -65,4 +65,4 @@ python3 -m venv .venv
 .venv/bin/python scripts/build_releases.py
 ```
 
-Files are written to ignored `dist/`. The builder only packages the allowlisted public library; it excludes `.remember`, local agent settings, credentials, and Git internals. Run validation again after changing content.
+Files are written to ignored `dist/`. The build also creates `standalone-guides/` with one complete Markdown file per skill, `SKILL-UPLOAD-INDEX.md` with all individual packages, and macOS Finder reveal shortcuts. Upload individual skill ZIPs to Agensi; attach the matching complete Markdown guide in an ordinary LLM chat. The builder only packages the allowlisted public library; it excludes `.remember`, local agent settings, credentials, and Git internals. Run validation again after changing content.

@@ -10,7 +10,7 @@ Choose a **Starter** from the [catalog](catalog.md). The [Listing Content Starte
 
 On GitHub, open the linked file, choose **Raw**, and copy the full text. Paste it into a new chat, or save the file and attach it using your assistant's file upload button. You can also extract a standalone Markdown guide from the chat-guide ZIP on the [release page](https://github.com/evyevans/realtyskills/releases/latest).
 
-For a **Detailed** entry, attach both `SKILL.md` and the `references/playbook.md` linked inside it. A chat attachment does not automatically fetch another file. The standalone release guide combines both, so only one attachment is needed.
+For a **Detailed** entry, attach both `SKILL.md` and the `references/playbook.md` linked inside it. A chat attachment does not automatically fetch another file. The standalone release guide combines both, so only one attachment is needed. A local build exposes those files individually in `dist/standalone-guides/`. If only the entry is available, ask the assistant to follow its core workflow and explain any limitation.
 
 Paste this message after providing the instructions:
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased — full-library workflow revision
+
+- Individually revised all 35 remaining active skills and rechecked the seven earlier revisions.
+- Replaced fixed personal examples, dates, market assumptions, vendor requirements, unsupported forecasts, and automatic legal/financial defaults with task-specific evidence and user inputs.
+- Added complete core workflows, connector-aware execution, chat fallback, and practical domain-specific deliverables.
+- Corrected underwriting definitions, funding/return treatment, transaction date rules, contact eligibility handling, and reversible CRM cleanup guidance.
+- Added one standalone Markdown guide and macOS Finder reveal shortcut per skill, a complete upload index, and hash manifest alongside the individual ZIPs.
+- Synchronized catalog metadata and the lead-prioritization worked example; preserved stable skill identifiers and the MIT license.
+- GitHub publication and Agensi uploads remain deferred. Existing library release filenames stay compatible; per-skill patch versions identify this local revision.
+
 ## Brand update — October 5, 2026
 
 - Adopted **RealtySkills** as the display name across the README, guides, examples, and release text.

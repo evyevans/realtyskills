@@ -24,7 +24,7 @@ Write listing copy, prepare seller calls, organize follow-ups, explain market da
 
 A **skill** is a set of written instructions you give an AI assistant. It tells the assistant what information to ask for, how to work through a task, and what to return. You can read every instruction before using it.
 
-**No coding is needed for the chat workflow.** Use it with an AI assistant that accepts text or files, including Claude, ChatGPT, and Gemini. Installation is a separate option for tools that support skills. Results and available tools vary by product and account.
+**No coding is needed for the chat workflow.** Use it with an AI assistant that accepts text or files, including Claude, ChatGPT, Grok, and Gemini. Installation is a separate option for tools that support skills. Results and available tools vary by product and account.
 
 ## Try your first skill
 
@@ -95,7 +95,7 @@ The library is free. Your AI product may require a paid plan for particular tool
 
 ## Use in your market
 
-Many drafting and planning workflows can be adapted internationally. Some source playbooks use US contracts, laws, taxes, or terminology. Every catalog entry identifies its jurisdiction; **1031 exchanges are US-only**. A US legal checklist does not become a Canadian or other local checklist just by changing the address.
+Many drafting and planning workflows can be adapted internationally. Active workflows use your actual location and terms. U.S. official references apply only where relevant; historical source examples remain in the archive. Every catalog entry identifies its jurisdiction; **1031 exchanges are US-only**. A US legal checklist does not become a Canadian or other local checklist just by changing the address.
 
 Provide your country, state or province, currency, and units. Check current local requirements with qualified professionals. Market analysis needs dated data; forecasts need explicit assumptions. Legal and financial outputs are working drafts, not legal advice, tax advice, or compliance certification.
 
@@ -103,7 +103,7 @@ See [capabilities and limitations](docs/quality-and-limitations.md). Use fiction
 
 ## Built to be read, reused, and improved
 
-Every active folder contains a standard `SKILL.md` entry. Detailed playbooks live in `references/`. The [catalog](catalog.json) records all active entries and the [seven archived versions](archive/README.md). Automated checks verify packaging, metadata, internal links, and inventory consistency; they do not establish that AI answers are correct.
+Every active folder contains a standard `SKILL.md` entry. The [individual revision audit](docs/skill-quality-audit.md) records the review of all 42 skills. Detailed playbooks live in `references/`. The [catalog](catalog.json) records all active entries and the [seven archived versions](archive/README.md). Automated checks verify packaging, metadata, internal links, and inventory consistency; they do not establish that AI answers are correct.
 
 Want to improve a workflow or add a market-specific version? Read [CONTRIBUTING.md](CONTRIBUTING.md), [report an issue](https://github.com/evyevans/realtyskills/issues/new/choose), or open a pull request. Please use synthetic examples and cite authoritative sources for jurisdiction-specific changes.
 

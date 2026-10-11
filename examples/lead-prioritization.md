@@ -1,29 +1,33 @@
-# Example: prioritizing a fictional lead batch
+# Example: organizing a fictional inquiry batch
 
 **Skill:** [Lead Qualification](../skills/leads-and-prospecting/lead-qualification-engine/SKILL.md)
 
+These aliases and circumstances are synthetic demonstration inputs, not skill defaults. No outreach is sent.
+
 ## Input
 
-All contacts use aliases. All stated budgets fit the user's supplied target inventory range. No timeline bonuses apply. Contact permissions are supplied separately from scores.
+| Reference | Actual request | Known readiness facts | Contact status |
+|---|---|---|---|
+| Inquiry A | Requests a showing | Financing not provided | Eligible for the requested email response |
+| Inquiry B | Requests an explanation of property value | Property details supplied; comparable evidence missing | Eligible for the requested email response |
+| Inquiry C | Requests no further contact | Other facts not needed | Opted out |
 
-| Alias | Source | Financial readiness | Timeline | Strongest engagement | Contact status |
-|---|---|---|---|---|---|
-| Lead A | Past-client referral | Pre-approval letter supplied | Within 30 days | Requested a showing | Contactable by email |
-| Lead B | Personal website form | Budget supplied; no lender contact | 3–6 months | Downloaded buyer guide | Contactable by email |
-| Lead C | Social media DM | Budget and lender contact unknown | Unknown | Asked to stop contact | Opted out |
-
-Request: “Use the default rubric in the attached playbook. Show each dimension and total. Flag missing facts and honor the contact status. Draft next actions only.”
+Request: “Organize the next actions and discovery questions. Explain the basis for each suggestion and draft eligible responses. Do not predict conversion or assign a numerical score.”
 
 ## Illustrative output
 
-| Alias | Source / 20 | Finance / 25 | Timeline / 25 | Engagement / 30 | Total / 100 | Result | Next action |
-|---|---:|---:|---:|---:|---:|---|---|
-| Lead A | 20 | 25 | 25 | 28 | 98 | Ready now | Review showing preferences and draft an email |
-| Lead B | 12 | 10 | 12 | 15 | 49 | Long-term nurture | Ask about lender plans and confirm preferred cadence |
-| Lead C | 7 | 5 | 3 | 0 | 15 | Do not contact | Preserve opt-out; no outreach or campaign enrollment |
+| Reference | Basis | Next action | Missing information |
+|---|---|---|---|
+| Inquiry A | Explicit showing request | Answer the request and ask for viewing preferences; confirm current availability | Actual availability and preferences |
+| Inquiry B | Explicit valuation request | Confirm the analysis scope and gather relevant closed-sale evidence | Dated comparable records |
+| Inquiry C | Opt-out | Exclude from outreach and preserve the preference | None needed for the contact decision |
 
-The arithmetic is 20 + 25 + 25 + 28 = 98; 12 + 10 + 12 + 15 = 49; and 7 + 5 + 3 + 0 = 15. Missing financial and timeline information for Lead C is flagged, not inferred.
+**Draft for Inquiry A:** “Thank you for your showing request. What viewing times would suit you? I will confirm the property's current availability before proposing an appointment.”
+
+**Draft for Inquiry B:** “Thank you for your property-value question. I can help organize a comparison using relevant recent sales. Are there particular questions or property details you want the analysis to address?”
+
+No message is generated for Inquiry C. Unknown financing is not treated as a refusal or a reason to deny service. The relative order of the eligible inquiries follows their actual requests and the user's service standards, not a fabricated source prestige or conversion score.
 
 ## Review
 
-These scores are configurable workflow heuristics. They are not validated conversion predictions, loan decisions, or determinations of access to housing. An opt-out overrides any numeric total. Review the facts and lawful contact basis before outreach; no messages have been sent.
+This is a hand-authored example, not a recorded model evaluation. Confirm contact eligibility, property status, and sender identity before use. Optional scoring requires a transparent user-approved rubric and must not decide housing or lending eligibility.

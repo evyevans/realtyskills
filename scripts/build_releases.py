@@ -26,6 +26,53 @@ def write_zip(path, members):
             assert archive.read(name) == content, f'Content mismatch: {path.name}/{name}'
 
 
+def write_navigation(destination, skills, guides):
+    """Expose the same complete guides outside the bundle and create macOS shortcuts."""
+    guide_dir = destination / 'standalone-guides'
+    finder_dir = destination / 'finder'
+    guide_dir.mkdir(exist_ok=True)
+    finder_dir.mkdir(exist_ok=True)
+    rows = ['# All RealtySkills uploads', '',
+            'All 42 active skills, including the earlier revisions. Upload the individual ZIP '
+            'to Agensi or a supported skill installer. For ordinary LLM chat, attach the complete '
+            'Markdown guide. Detailed guides include their playbook.', '',
+            'On macOS, open a Finder shortcut in Terminal to select that ZIP in Finder. '
+            'The shortcuts only reveal files; they do not upload or publish anything.', '',
+            f'[Reveal every skill ZIP in Finder]({destination / "reveal-all-skills.command"})', '',
+            '| Skill | Version | Individual ZIP | Complete chat guide | Finder |',
+            '|---|---|---|---|---|']
+    manifest = []
+    for skill in sorted(skills, key=lambda item: item['id']):
+        slug = skill['id']
+        content = guides[f'realtyskills-chat-guides/{slug}.md']
+        guide = guide_dir / f'{slug}.md'
+        guide.write_bytes(content)
+        package = destination / f'{slug}.zip'
+        shortcut = finder_dir / f'{slug}.command'
+        shortcut.write_text('#!/bin/zsh\n'
+                            'task_dist_dir="${0:A:h:h}"\n'
+                            f'/usr/bin/open -R "$task_dist_dir/{slug}.zip"\n')
+        shortcut.chmod(0o755)
+        match = re.search(rb'^  version: (.+)$', content, re.M)
+        skill_version = match.group(1).decode().strip("'\"") if match else 'unknown'
+        rows.append(f'| {skill["title"]} | {skill_version} | '
+                    f'[{slug}.zip]({package}) | [Markdown]({guide}) | [Reveal]({shortcut}) |')
+        manifest.append({'id': slug, 'version': skill_version,
+                         'zip': package.name, 'guide': str(guide.relative_to(destination)),
+                         'finder': str(shortcut.relative_to(destination)),
+                         'zip_sha256': hashlib.sha256(package.read_bytes()).hexdigest(),
+                         'guide_sha256': hashlib.sha256(content).hexdigest()})
+    all_shortcut = destination / 'reveal-all-skills.command'
+    targets = ' '.join(f'"$task_dist_dir/{skill["id"]}.zip"' for skill in skills)
+    all_shortcut.write_text('#!/bin/zsh\ntask_dist_dir="${0:A:h}"\n'
+                            f'/usr/bin/open -R {targets}\n')
+    all_shortcut.chmod(0o755)
+    (destination / 'SKILL-UPLOAD-INDEX.md').write_text('\n'.join(rows) + '\n')
+    (destination / 'skill-upload-manifest.json').write_text(json.dumps(
+        {'skills': manifest}, indent=2) + '\n')
+    print(f'Created {len(manifest)} standalone guides and Finder shortcuts, plus SKILL-UPLOAD-INDEX.md.')
+
+
 def main():
     subprocess.run([sys.executable, str(ROOT / 'scripts/render_catalog.py'), '--check'], check=True)
     subprocess.run([sys.executable, str(ROOT / 'scripts/validate_library.py')], check=True)
@@ -70,6 +117,7 @@ def main():
     checksums = '\n'.join(f'{hashlib.sha256(path.read_bytes()).hexdigest()}  {path.name}'
                           for path in sorted(outputs)) + '\n'
     (destination / 'SHA256SUMS.txt').write_text(checksums)
+    write_navigation(destination, data['skills'], guides)
     print(f'Built and verified {len(outputs)} ZIPs: {len(data["skills"])} individual skills, '
           'one chat-guide bundle, one full library, plus SHA256SUMS.txt.')
     print(f'Total ZIP size: {sum(path.stat().st_size for path in outputs):,} bytes. Output: {destination}')

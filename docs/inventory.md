@@ -17,13 +17,13 @@ Source hashes identify the original bytes before attribution, metadata, and publ
 | `07_DOC_listing-and-buyer-rep-agreement-drafter.md` | [Representation Agreement Draft](../skills/transactions-and-documents/listing-and-buyer-rep-agreement-drafter/SKILL.md) | Detailed |
 | `08_DOC_contract-review-and-red-flag-assistant.md` | [Contract Review](../skills/transactions-and-documents/contract-review-and-red-flag-assistant/SKILL.md) | Detailed |
 | `09_DOC_purchase-agreement-and-loi-drafter.md` | [Purchase Agreement and LOI Draft](../skills/transactions-and-documents/purchase-agreement-and-loi-drafter/SKILL.md) | Detailed |
-| `10_DOC_closing-document-reviewer.md` | [Closing Document Review](../skills/transactions-and-documents/closing-document-reviewer/SKILL.md) | Detailed |
-| `11_COMM_client-follow-up-sequencer.md` | [Client Follow-Up Plan](../skills/client-communication-and-referrals/client-follow-up-sequencer/SKILL.md) | Detailed |
+| `10_DOC_closing-document-reviewer.md` | [Closing Document Reviewer](../skills/transactions-and-documents/closing-document-reviewer/SKILL.md) | Detailed |
+| `11_COMM_client-follow-up-sequencer.md` | [Client Follow-Up Sequencer](../skills/client-communication-and-referrals/client-follow-up-sequencer/SKILL.md) | Detailed |
 | `12-claude-skills-real-estate/01-listing-description-engine.md` | [Listing Content Starter](../skills/listings-and-marketing/listing-description-engine/SKILL.md) | Starter |
 | `12-claude-skills-real-estate/02-seller-outreach-scripts.md` | [Seller Outreach Starter](../skills/leads-and-prospecting/seller-outreach-scripts/SKILL.md) | Starter |
 | `12-claude-skills-real-estate/03-seller-call-framework.md` | [Seller Call Starter](../skills/leads-and-prospecting/seller-call-framework/SKILL.md) | Starter |
 | `12-claude-skills-real-estate/04-lead-nurture-machine.md` | [Lead Nurture Starter](../skills/client-communication-and-referrals/lead-nurture-machine/SKILL.md) | Starter |
-| `12-claude-skills-real-estate/05-cma-listing-appointment-prep.md` | [Listing Appointment Starter](../skills/market-research-and-pricing/cma-listing-appointment-prep/SKILL.md) | Starter |
+| `12-claude-skills-real-estate/05-cma-listing-appointment-prep.md` | [CMA and Listing Appointment Prep](../skills/market-research-and-pricing/cma-listing-appointment-prep/SKILL.md) | Starter |
 | `12-claude-skills-real-estate/06-transaction-client-comms.md` | [Transaction Update Starter](../skills/transactions-and-documents/transaction-client-comms/SKILL.md) | Starter |
 | `12-claude-skills-real-estate/07-property-management-comms.md` | [Tenant and Owner Communication Starter](../skills/property-management/property-management-comms/SKILL.md) | Starter |
 | `12-claude-skills-real-estate/08-deal-disposition-package.md` | [Investor Deal Package Starter](../skills/deals-and-investment-analysis/deal-disposition-package/SKILL.md) | Starter |
