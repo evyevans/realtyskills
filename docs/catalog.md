@@ -2,7 +2,7 @@
 
 42 active workflows across 9 categories. Use your browser’s Find feature to search for a task or audience.
 
-**Starter** is a focused workflow. **Detailed** is an extensive playbook. For chat use, attach the entry and any linked playbook, or use the standalone release guide.
+**Starter** is a focused workflow. **Detailed** is an extensive playbook. For chat use, download the chat-guide bundle, extract it, and attach one complete Markdown guide.
 
 [First-use guide](getting-started.md) · [Installation](installation.md) · [Connected workflows](workflows.md) · [Limitations](quality-and-limitations.md)
 
@@ -20,7 +20,7 @@
 
 ### Seller Call Starter
 
-[Starter instructions](../skills/leads-and-prospecting/seller-call-framework/SKILL.md)
+[Starter instructions](../skills/leads-and-prospecting/seller-call-framework/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Call purpose/relationship, confirmed property facts, seller-stated goals, contact eligibility, available evidence, and desired next step..
 - **Receive:** Flexible call agenda, discovery questions, response guidance, call-note template, and follow-up draft..
@@ -32,7 +32,7 @@
 
 ### Seller Outreach Starter
 
-[Starter instructions](../skills/leads-and-prospecting/seller-outreach-scripts/SKILL.md)
+[Starter instructions](../skills/leads-and-prospecting/seller-outreach-scripts/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Sender role, seller-provided or verified property context, outreach purpose, jurisdiction/contact basis, requested channels, and actual next-step offer..
 - **Receive:** Complete channel scripts, discovery questions, interest/decline branches, and contact/claim verification notes..
@@ -44,7 +44,7 @@
 
 ### Lead Qualification
 
-[Detailed instructions](../skills/leads-and-prospecting/lead-qualification-engine/SKILL.md)
+[Detailed instructions](../skills/leads-and-prospecting/lead-qualification-engine/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Available lead/inquiry records, stated transaction needs, actual interactions and timing, relevant readiness facts, contact preferences/eligibility, and follow-up objective..
 - **Receive:** Prioritized inquiry queue, buyer/seller discovery questions, readiness/gap summaries, optional user-defined workflow scores, and complete eligible message drafts..
@@ -56,7 +56,7 @@
 
 ### Motivated Seller Outreach
 
-[Detailed instructions](../skills/leads-and-prospecting/motivated-seller-outreach-script/SKILL.md)
+[Detailed instructions](../skills/leads-and-prospecting/motivated-seller-outreach-script/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Outreach purpose and role, seller-provided context, confirmed property facts, jurisdiction, contact source/eligibility, permitted channels, and real next-step offer..
 - **Receive:** Eligible channel drafts, discovery questions, response branches, proposed follow-up conditions, and contact/claim verification checklist..
@@ -68,7 +68,7 @@
 
 ### Off-Market Property Profile
 
-[Detailed instructions](../skills/leads-and-prospecting/off-market-distressed-property-profiler/SKILL.md)
+[Detailed instructions](../skills/leads-and-prospecting/off-market-distressed-property-profiler/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Property alias or identifier, jurisdiction, authorized public records with dates, observed condition, occupancy facts, valuation/debt evidence, outreach purpose, and contact eligibility..
 - **Receive:** Property fact profile, record discrepancies, conditional equity worksheet, diligence priorities, and eligible outreach drafts..
@@ -92,7 +92,7 @@
 
 ### Listing Content Starter
 
-[Starter instructions](../skills/listings-and-marketing/listing-description-engine/SKILL.md)
+[Starter instructions](../skills/listings-and-marketing/listing-description-engine/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Confirmed property features/status, size and units, requested channels/limits, brand voice, approved viewing/contact details, and required disclosures..
 - **Receive:** Complete listing draft, requested captions, buyer email, property one-pager text, and factual/publication checks..
@@ -104,7 +104,7 @@
 
 ### Email Campaign Plan
 
-[Detailed instructions](../skills/listings-and-marketing/email-drip-campaign-builder/SKILL.md)
+[Detailed instructions](../skills/listings-and-marketing/email-drip-campaign-builder/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Audience and actual relationship, campaign goal/horizon, jurisdiction/contact eligibility, sender identity, verified offer/content, cadence preferences, and suppression/CRM rules..
 - **Receive:** Complete email sequence with subjects/previews, eligibility and stop logic, reply branches, field mapping, and deployment checklist..
@@ -116,7 +116,7 @@
 
 ### Listing Launch Plan
 
-[Detailed instructions](../skills/listings-and-marketing/listing-launch-coordinator/SKILL.md)
+[Detailed instructions](../skills/listings-and-marketing/listing-launch-coordinator/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Actual listing authority, verified property facts/status, seller goals and availability, proposed launch date, budget, vendors/lead times, asset rights, and local listing/advertising rules..
 - **Receive:** Dependency-based launch plan, seller preparation checklist, photography brief, finished launch copy, channel schedule, and performance review tracker..
@@ -128,7 +128,7 @@
 
 ### Property Listing Copy
 
-[Detailed instructions](../skills/listings-and-marketing/property-description-generator/SKILL.md)
+[Detailed instructions](../skills/listings-and-marketing/property-description-generator/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Confirmed property features and status, location to disclose, audience/purpose, approved claims, channel limits, brand voice, and required disclosures..
 - **Receive:** Fact-checked headline options, listing copy, extended copy, requested social/email variants, and a claims/character-count checklist..
@@ -140,7 +140,7 @@
 
 ### Social Media Content Plan
 
-[Detailed instructions](../skills/listings-and-marketing/social-media-content-planner/SKILL.md)
+[Detailed instructions](../skills/listings-and-marketing/social-media-content-planner/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Campaign objective/horizon, audience needs, local market if relevant, requested channels, brand voice, verified facts/assets and permissions, capacity, and approved CTA..
 - **Receive:** Content strategy, feasible calendar, complete channel-specific captions/scripts, visual briefs, review gates, and measurement plan..
@@ -164,7 +164,7 @@
 
 ### Lead Nurture Starter
 
-[Starter instructions](../skills/client-communication-and-referrals/lead-nurture-machine/SKILL.md)
+[Starter instructions](../skills/client-communication-and-referrals/lead-nurture-machine/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Lead relationship/stage, actual inquiry and preferences, jurisdiction/channel eligibility, verified resources, user-approved timing, and next-step goal..
 - **Receive:** Complete nurture messages, conditional schedule, reply branches, stop rules, and a simple status tracker..
@@ -176,7 +176,7 @@
 
 ### Objection Response Starter
 
-[Starter instructions](../skills/client-communication-and-referrals/objection-handler/SKILL.md)
+[Starter instructions](../skills/client-communication-and-referrals/objection-handler/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Exact concern, verified context and relevant evidence, actual service/fee terms if needed, desired next step, and tone/channel..
 - **Receive:** Concise response options, one useful clarification, factual support needed, and acceptance/decline follow-up..
@@ -188,7 +188,7 @@
 
 ### Referral and Retention Starter
 
-[Starter instructions](../skills/client-communication-and-referrals/referral-and-retention-engine/SKILL.md)
+[Starter instructions](../skills/client-communication-and-referrals/referral-and-retention-engine/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Actual relationship/service history, client preferences and channel eligibility, relevant occasion, approved useful resources, brand voice, and desired outcome..
 - **Receive:** Complete client-care messages, optional referral/review requests, preference-based touchpoint plan, response branches, and tracker..
@@ -200,7 +200,7 @@
 
 ### Client Follow-Up Sequencer
 
-[Detailed instructions](../skills/client-communication-and-referrals/client-follow-up-sequencer/SKILL.md)
+[Detailed instructions](../skills/client-communication-and-referrals/client-follow-up-sequencer/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Client stage, jurisdiction, last interaction, goal, channel eligibility, preferences, and verified facts.
 - **Receive:** Reviewable contact schedule, complete message drafts, reply branches, and stop rules.
@@ -212,7 +212,7 @@
 
 ### Objection Handling Coach
 
-[Detailed instructions](../skills/client-communication-and-referrals/objection-handler-coach/SKILL.md)
+[Detailed instructions](../skills/client-communication-and-referrals/objection-handler-coach/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** The client’s exact words, relationship and conversation context, verified relevant facts, actual service/fee terms, and desired respectful next step..
 - **Receive:** Concern analysis, discovery questions, complete response options, follow-up branches, role-play, and coaching feedback..
@@ -236,7 +236,7 @@
 
 ### CMA and Listing Appointment Prep
 
-[Starter instructions](../skills/market-research-and-pricing/cma-listing-appointment-prep/SKILL.md)
+[Starter instructions](../skills/market-research-and-pricing/cma-listing-appointment-prep/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Verified property facts, dated sold comps, current competition, seller goals, and source dates.
 - **Receive:** CMA narrative, conditional pricing strategy, meeting agenda, and seller-facing summary.
@@ -248,7 +248,7 @@
 
 ### Market Report Starter
 
-[Starter instructions](../skills/market-research-and-pricing/market-report-generator/SKILL.md)
+[Starter instructions](../skills/market-research-and-pricing/market-report-generator/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Market/segment, reporting and comparison periods, sourced prices/sales/inventory/DOM, audience, tone, and channel limits..
 - **Receive:** Complete market newsletter, metric/change table, social summary, and source/freshness notes..
@@ -260,7 +260,7 @@
 
 ### Comparative Market Analysis
 
-[Detailed instructions](../skills/market-research-and-pricing/comparative-market-analysis-reporter/SKILL.md)
+[Detailed instructions](../skills/market-research-and-pricing/comparative-market-analysis-reporter/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Subject facts, local market and units, dated closed sales, current competition, supported adjustments, and pricing objective..
 - **Receive:** Subject fact sheet, comp-selection log, adjustment grid, market context, supported pricing range, and client-ready explanation..
@@ -272,7 +272,7 @@
 
 ### Market Intelligence Brief
 
-[Detailed instructions](../skills/market-research-and-pricing/market-intelligence-daily-brief/SKILL.md)
+[Detailed instructions](../skills/market-research-and-pricing/market-intelligence-daily-brief/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Market boundary and property segment, reporting/as-of date, comparison objective, supplied statistics or authorized sources, and intended audience..
 - **Receive:** Concise sourced brief, comparable-period metric table, agent/client talking points, uncertainty notes, and next verification actions..
@@ -284,7 +284,7 @@
 
 ### Neighborhood Investment Report
 
-[Detailed instructions](../skills/market-research-and-pricing/neighborhood-investment-climate-report/SKILL.md)
+[Detailed instructions](../skills/market-research-and-pricing/neighborhood-investment-climate-report/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Explicit neighborhood boundary, property strategy/type, report horizon, sourced sales/rent/operating data, zoning/infrastructure/risk records, and investor criteria..
 - **Receive:** Evidence-based neighborhood brief, strategy comparison, operating/regulatory constraints, scenario risks, and property-level diligence plan..
@@ -309,7 +309,7 @@
 
 ### Investor Deal Package Starter
 
-[Starter instructions](../skills/deals-and-investment-analysis/deal-disposition-package/SKILL.md)
+[Starter instructions](../skills/deals-and-investment-analysis/deal-disposition-package/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Property/contract interest and local marketing permission, verified facts, actual price/fees, comps and repair evidence, occupancy, funding/exit assumptions, and permitted audience..
 - **Receive:** Buyer-facing deal brief, complete buyer email, one-pager, talking points, evidence register, and diligence checklist..
@@ -321,7 +321,7 @@
 
 ### 1031 Exchange Organizer
 
-[Detailed instructions](../skills/deals-and-investment-analysis/1031-exchange-planner/SKILL.md)
+[Detailed instructions](../skills/deals-and-investment-analysis/1031-exchange-planner/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Actual sale and replacement-property facts, jurisdiction, qualified intermediary details, and current source documents.
 - **Receive:** Source-backed deadline plan, candidate comparison, missing-information list, and advisor questions.
@@ -333,7 +333,7 @@
 
 ### Fix and Flip Analysis
 
-[Detailed instructions](../skills/deals-and-investment-analysis/flip-profit-and-timeline-calculator/SKILL.md)
+[Detailed instructions](../skills/deals-and-investment-analysis/flip-profit-and-timeline-calculator/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Acquisition and resale evidence, renovation scope/quotes, permits, financing and draw terms, transaction costs, holding expenses, actual milestones, and return targets..
 - **Receive:** Itemized project budget, funding/cash-flow schedule, profit and return metrics, break-even resale calculation, dependency timeline, and sensitivity report..
@@ -345,7 +345,7 @@
 
 ### Multifamily Pro Forma
 
-[Detailed instructions](../skills/deals-and-investment-analysis/multi-unit-investment-pro-forma/SKILL.md)
+[Detailed instructions](../skills/deals-and-investment-analysis/multi-unit-investment-pro-forma/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Unit-level rent roll, matching-period operating statements/collections, leases, capital and lease-up schedule, price, financing, equity terms if relevant, hold period, and exit assumptions..
 - **Receive:** Reconciled rent roll/T12, current and stabilized NOI, debt and capital model, periodic equity cash flows, supported return metrics, sensitivity matrix, and investor brief..
@@ -357,7 +357,7 @@
 
 ### Rental Property Evaluation
 
-[Detailed instructions](../skills/deals-and-investment-analysis/rental-property-underwriting-model/SKILL.md)
+[Detailed instructions](../skills/deals-and-investment-analysis/rental-property-underwriting-model/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Price/currency, rent and occupancy evidence, operating expenses, capital/reserve plan, loan terms, acquisition costs, hold period, and explicit growth/exit assumptions..
 - **Receive:** Income/expense schedules, NOI and debt metrics, after-reserve cash flow, investment basis, hold/exit model, sensitivities, and evidence-based decision conditions..
@@ -369,7 +369,7 @@
 
 ### Wholesale Deal Analysis
 
-[Detailed instructions](../skills/deals-and-investment-analysis/wholesale-deal-analyzer/SKILL.md)
+[Detailed instructions](../skills/deals-and-investment-analysis/wholesale-deal-analyzer/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Property and jurisdiction, evidence for resale value, contract/assignment terms, repair scope and quotes, acquisition costs, funding terms, exit costs, and investor targets..
 - **Receive:** ARV evidence, repair budget, end-buyer and wholesaler economics, maximum-offer worksheet, exit comparison, funding needs, and diligence questions..
@@ -394,7 +394,7 @@
 
 ### Transaction Update Starter
 
-[Starter instructions](../skills/transactions-and-documents/transaction-client-comms/SKILL.md)
+[Starter instructions](../skills/transactions-and-documents/transaction-client-comms/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Client role, current signed terms/status, verified events/deadlines, requested action and responsible party, channel, and relevant source documents..
 - **Receive:** Complete client email/text, action checklist, unresolved facts, and an internal source/status note..
@@ -406,7 +406,7 @@
 
 ### Closing Document Reviewer
 
-[Detailed instructions](../skills/transactions-and-documents/closing-document-reviewer/SKILL.md)
+[Detailed instructions](../skills/transactions-and-documents/closing-document-reviewer/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Jurisdiction, transaction role, current settlement statement, signed terms, and available loan, title, deed, and payoff records.
 - **Receive:** Source-traced discrepancies, calculation checks, title and deed questions, and missing-evidence list.
@@ -418,7 +418,7 @@
 
 ### Contract Review
 
-[Detailed instructions](../skills/transactions-and-documents/contract-review-and-red-flag-assistant/SKILL.md)
+[Detailed instructions](../skills/transactions-and-documents/contract-review-and-red-flag-assistant/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Complete contract and amendments, jurisdiction, user’s transaction role, intended review objective, and confirmed supporting documents..
 - **Receive:** Plain-language contract summary, clause-linked findings, obligation/deadline matrix, proposed negotiation questions, and professional-review priorities..
@@ -430,7 +430,7 @@
 
 ### Purchase Agreement and LOI Draft
 
-[Detailed instructions](../skills/transactions-and-documents/purchase-agreement-and-loi-drafter/SKILL.md)
+[Detailed instructions](../skills/transactions-and-documents/purchase-agreement-and-loi-drafter/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Document type, jurisdiction, permitted current form if applicable, parties/authority, property identification, price, deposit, financing, contingencies, timing, possession, and negotiated provisions..
 - **Receive:** Complete review draft or term sheet, term-status table, clearly marked binding-status questions, proposed changes, and execution-readiness checklist..
@@ -442,7 +442,7 @@
 
 ### Representation Agreement Draft
 
-[Detailed instructions](../skills/transactions-and-documents/listing-and-buyer-rep-agreement-drafter/SKILL.md)
+[Detailed instructions](../skills/transactions-and-documents/listing-and-buyer-rep-agreement-drafter/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Agreement type, jurisdiction and applicable brokerage rules, authorized current form, parties/authority, scope, term, actual compensation terms, and disclosures..
 - **Receive:** Form-based draft or structured term sheet, source-traced change log, missing-term register, plain-language summary, and broker/legal review checklist..
@@ -454,7 +454,7 @@
 
 ### Transaction Timeline
 
-[Detailed instructions](../skills/transactions-and-documents/transaction-coordinator-timeline/SKILL.md)
+[Detailed instructions](../skills/transactions-and-documents/transaction-coordinator-timeline/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Executed contract/addenda, verified trigger dates, jurisdiction/time zone, actual counting rules, parties/owners, loan/settlement requirements, and reminder preferences..
 - **Receive:** Deadline calculation register, chronological task/owner timeline, dependency alerts, contact directory, and near-term action checklist..
@@ -475,7 +475,7 @@
 
 ### Tenant and Owner Communication Starter
 
-[Starter instructions](../skills/property-management/property-management-comms/SKILL.md)
+[Starter instructions](../skills/property-management/property-management-comms/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Jurisdiction, audience/role, situation, lease/management terms, verified events and dates, approved costs/access details, and desired next action..
 - **Receive:** Complete audience-specific drafts, factual action summary, missing-input list, and local-review questions when relevant..
@@ -487,7 +487,7 @@
 
 ### Maintenance Work Order
 
-[Detailed instructions](../skills/property-management/property-management-work-order-tracker/SKILL.md)
+[Detailed instructions](../skills/property-management/property-management-work-order-tracker/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Reported issues, property/unit alias, jurisdiction, request timestamp if known, access/safety details, management authority, vendor availability/quotes, and applicable response obligations..
 - **Receive:** Triaged issue register, work-order draft, vendor scope, tenant acknowledgment, owner approval request where needed, and completion tracker..
@@ -510,7 +510,7 @@
 
 ### Housing Marketing Risk Review
 
-[Detailed instructions](../skills/compliance-and-risk/fair-housing-compliance-checker/SKILL.md)
+[Detailed instructions](../skills/compliance-and-risk/fair-housing-compliance-checker/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Full content and visual/targeting context, jurisdiction, transaction type, relevant policies, and any claimed exemption or occupancy rule..
 - **Receive:** Passage-linked concern register, applicability/source notes, neutral rewrites, complete revised copy, and unresolved review questions..
@@ -522,7 +522,7 @@
 
 ### Landlord and Tenant Risk Review
 
-[Detailed instructions](../skills/compliance-and-risk/landlord-tenant-legal-risk-analyzer/SKILL.md)
+[Detailed instructions](../skills/compliance-and-risk/landlord-tenant-legal-risk-analyzer/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Jurisdiction and property/tenancy type, user role, lease/addenda, dated events, notices/service evidence, payments/deposit ledger, repair records, and desired outcome..
 - **Receive:** Factual chronology, lease/source-linked issue matrix, conditional deadline worksheet, evidence gaps, neutral communications, and local counsel questions..
@@ -534,7 +534,7 @@
 
 ### License and Disclosure Tracker
 
-[Detailed instructions](../skills/compliance-and-risk/license-and-disclosure-compliance-tracker/SKILL.md)
+[Detailed instructions](../skills/compliance-and-risk/license-and-disclosure-compliance-tracker/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Jurisdiction, role/license type, official status or renewal records, training certificates, transaction types/documents, current authoritative requirements, and tracking horizon..
 - **Receive:** License/education status register, applicable disclosure matrix, source-backed deadline calendar, missing-evidence list, and owner/action tracker..
@@ -546,7 +546,7 @@
 
 ### Transaction Risk Review
 
-[Detailed instructions](../skills/compliance-and-risk/transaction-risk-screener/SKILL.md)
+[Detailed instructions](../skills/compliance-and-risk/transaction-risk-screener/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Transaction role and jurisdiction, permitted party/entity records, title/contract documents, communication history, funding/payment context, and known discrepancies..
 - **Receive:** Source-traced concern register, payment-verification steps, missing-document checklist, priority holds, and title/legal/compliance handoff..
@@ -569,7 +569,7 @@
 
 ### Agent Recruiting Starter
 
-[Starter instructions](../skills/brokerage-operations-and-crm/agent-recruiting-machine/SKILL.md)
+[Starter instructions](../skills/brokerage-operations-and-crm/agent-recruiting-machine/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Location, target role, verified brokerage offer, contact basis, permitted channels, and recruiting goals.
 - **Receive:** Recruiting brief, outreach drafts, interview guide, offer comparison, and pipeline tracker.
@@ -581,7 +581,7 @@
 
 ### Agent Onboarding Plan
 
-[Detailed instructions](../skills/brokerage-operations-and-crm/agent-onboarding-and-training-planner/SKILL.md)
+[Detailed instructions](../skills/brokerage-operations-and-crm/agent-onboarding-and-training-planner/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Experience, location, license status, start date, brokerage policies, systems, mentor capacity, and goals.
 - **Receive:** Access checklist, phased training, mentor protocol, readiness milestones, and review agenda.
@@ -593,7 +593,7 @@
 
 ### CRM Data Cleanup
 
-[Detailed instructions](../skills/brokerage-operations-and-crm/crm-data-audit-and-cleanup-engine/SKILL.md)
+[Detailed instructions](../skills/brokerage-operations-and-crm/crm-data-audit-and-cleanup-engine/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Authorized redacted export/records, field definitions, stable IDs, lifecycle rules, consent/suppression fields, merge policy, intended scope, and destination requirements..
 - **Receive:** Data-quality report, candidate duplicate/merge log, proposed cleaned dataset, row-level change log, exception queue, and import/rollback plan..
@@ -605,7 +605,7 @@
 
 ### Lead Source ROI
 
-[Detailed instructions](../skills/brokerage-operations-and-crm/lead-source-roi-attribution/SKILL.md)
+[Detailed instructions](../skills/brokerage-operations-and-crm/lead-source-roi-attribution/SKILL.md) · [One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)
 
 - **Provide:** Matching-period spend, leads/stages, transaction revenue or retained commission, attributable costs, source definitions, attribution window/model, and business targets..
 - **Receive:** Reconciled source/funnel table, CPL and acquisition metrics, defined ROI/ROAS, attribution caveats, sensitivity cases, and conditional allocation scenarios..

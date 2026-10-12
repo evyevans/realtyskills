@@ -1,13 +1,13 @@
 # Installation and downloads
 
-For occasional use, [copy or attach the instructions](getting-started.md). Installation helps supported agents find a workflow without uploading it each time.
+For occasional use, [download and attach one complete guide](getting-started.md). Installation helps supported agents find a workflow without uploading it each time.
 
 ## Downloads
 
-The [v1.0.0 release](https://github.com/evyevans/realtyskills/releases/tag/v1.0.0) is designed to provide:
+The [v1.0.1 release](https://github.com/evyevans/realtyskills/releases/tag/v1.0.1) packages the revised collection. Its publication status is recorded separately in [verification](maintainer/verification.md). Expected downloads:
 
-- `realtyskills-v1.0.0.zip`: the public library, documentation, and archive.
-- `realtyskills-chat-guides-v1.0.0.zip`: 42 standalone Markdown guides, each containing its complete instructions for chat attachment.
+- `realtyskills-v1.0.1.zip`: the active library, documentation, examples, and build scripts.
+- `realtyskills-chat-guides-v1.0.1.zip`: 42 standalone Markdown guides, each containing its complete instructions for chat attachment.
 - `<skill-name>.zip`: one installable skill folder with its reference files and license.
 - `SHA256SUMS.txt`: checksums for downloaded ZIPs.
 

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Evykynn",
   "categories": {
     "leads-and-prospecting": "Leads and prospecting",
@@ -139,7 +139,7 @@
       "level": "Detailed",
       "audience": "Agents, investors",
       "task": "Identify contract questions and potential red flags",
-      "inputs": "Complete contract and amendments, jurisdiction, user’s transaction role, intended review objective, and confirmed supporting documents.",
+      "inputs": "Complete contract and amendments, jurisdiction, user\u2019s transaction role, intended review objective, and confirmed supporting documents.",
       "output": "Plain-language contract summary, clause-linked findings, obligation/deadline matrix, proposed negotiation questions, and professional-review priorities.",
       "jurisdiction": "Global workflow; verify local rules, market evidence, and user-specific terms",
       "tools": "Chat and supplied records; relevant authorized connectors when available",
@@ -207,7 +207,7 @@
       "level": "Detailed",
       "audience": "Agents, teams",
       "task": "Practice responding to a buyer or seller objection",
-      "inputs": "The client’s exact words, relationship and conversation context, verified relevant facts, actual service/fee terms, and desired respectful next step.",
+      "inputs": "The client\u2019s exact words, relationship and conversation context, verified relevant facts, actual service/fee terms, and desired respectful next step.",
       "output": "Concern analysis, discovery questions, complete response options, follow-up branches, role-play, and coaching feedback.",
       "jurisdiction": "Global workflow; verify local rules, market evidence, and user-specific terms",
       "tools": "Chat and supplied records; relevant authorized connectors when available",
@@ -728,42 +728,56 @@
       "source_sha256": "e0b6c60ef5a90928dac84dde116cd2ae8fdc4c1604140252a3cedaaf0a224375"
     }
   ],
-  "archive": [
+  "name": "RealtySkills",
+  "retired_sources": [
     {
       "source": "7-claude-skills-real-estate/01-lead-qualification-engine.md",
-      "path": "archive/legacy-skills/01-lead-qualification-engine.md",
-      "source_sha256": "29743ff817d0b9061aa36ded1df0bd5c49411ee8d529d8b109ab44df4178d790"
+      "source_sha256": "29743ff817d0b9061aa36ded1df0bd5c49411ee8d529d8b109ab44df4178d790",
+      "historical_path": "archive/legacy-skills/01-lead-qualification-engine.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     },
     {
       "source": "7-claude-skills-real-estate/02-property-description-generator.md",
-      "path": "archive/legacy-skills/02-property-description-generator.md",
-      "source_sha256": "b8559a3b358fdaaec3c1d5b9dc28f5603f37862408f83a4e3e5c0b216618a49e"
+      "source_sha256": "b8559a3b358fdaaec3c1d5b9dc28f5603f37862408f83a4e3e5c0b216618a49e",
+      "historical_path": "archive/legacy-skills/02-property-description-generator.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     },
     {
       "source": "7-claude-skills-real-estate/03-market-analysis-reporter.md",
-      "path": "archive/legacy-skills/03-market-analysis-reporter.md",
-      "source_sha256": "a352c8d557a09f80e6633862475520ff231dfaae24be71578fc899b4662e0f25"
+      "source_sha256": "a352c8d557a09f80e6633862475520ff231dfaae24be71578fc899b4662e0f25",
+      "historical_path": "archive/legacy-skills/03-market-analysis-reporter.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     },
     {
       "source": "7-claude-skills-real-estate/04-client-follow-up-sequencer.md",
-      "path": "archive/legacy-skills/04-client-follow-up-sequencer.md",
-      "source_sha256": "3ec6b44150529726a7c903ceef804699c2a5ac377212281e2a3998d05ad8c7ac"
+      "source_sha256": "3ec6b44150529726a7c903ceef804699c2a5ac377212281e2a3998d05ad8c7ac",
+      "historical_path": "archive/legacy-skills/04-client-follow-up-sequencer.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     },
     {
       "source": "7-claude-skills-real-estate/05-objection-handler-coach.md",
-      "path": "archive/legacy-skills/05-objection-handler-coach.md",
-      "source_sha256": "de5e6c678f885da2addedb6e2c9d31153e2b18efcd4a44686f65dc19be8a74d8"
+      "source_sha256": "de5e6c678f885da2addedb6e2c9d31153e2b18efcd4a44686f65dc19be8a74d8",
+      "historical_path": "archive/legacy-skills/05-objection-handler-coach.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     },
     {
       "source": "7-claude-skills-real-estate/06-contract-review-assistant.md",
-      "path": "archive/legacy-skills/06-contract-review-assistant.md",
-      "source_sha256": "0c22afe8655eda66b0a9210f2bc2f9099fc30746aee6fce2dbc488a65d4bfb91"
+      "source_sha256": "0c22afe8655eda66b0a9210f2bc2f9099fc30746aee6fce2dbc488a65d4bfb91",
+      "historical_path": "archive/legacy-skills/06-contract-review-assistant.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     },
     {
       "source": "7-claude-skills-real-estate/07-social-media-content-planner.md",
-      "path": "archive/legacy-skills/07-social-media-content-planner.md",
-      "source_sha256": "a421fad5baaf75c340396f6272f748738c0df5cf8fd5dbe26a3cafe18ea7784c"
+      "source_sha256": "a421fad5baaf75c340396f6272f748738c0df5cf8fd5dbe26a3cafe18ea7784c",
+      "historical_path": "archive/legacy-skills/07-social-media-content-planner.md",
+      "history_ref": "a12c7f4",
+      "status": "removed from current collection"
     }
-  ],
-  "name": "RealtySkills"
+  ]
 }

@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import time
 from urllib.error import HTTPError
@@ -12,15 +13,18 @@ from urllib.request import Request, urlopen
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-TAG = 'v1.0.0'
+DATA = json.loads((ROOT / 'catalog.json').read_text())
+VERSION = DATA['version']
+if not re.fullmatch(r'\d+\.\d+\.\d+', VERSION):
+    raise ValueError('Invalid release version')
+TAG = f'v{VERSION}'
 REPOSITORY = 'evyevans/realtyskills'
 
 
 def verified_assets():
     data = json.loads((ROOT / 'catalog.json').read_text())
-    assert data['version'] == '1.0.0'
     expected = {f"{skill['id']}.zip" for skill in data['skills']}
-    expected.update({'realtyskills-v1.0.0.zip', 'realtyskills-chat-guides-v1.0.0.zip'})
+    expected.update({f'realtyskills-v{VERSION}.zip', f'realtyskills-chat-guides-v{VERSION}.zip'})
     checksums = {}
     for line in (ROOT / 'dist/SHA256SUMS.txt').read_text().splitlines():
         digest, name = line.split('  ', 1)
@@ -30,7 +34,7 @@ def verified_assets():
         with zipfile.ZipFile(path) as archive:
             assert archive.testzip() is None, name
         checksums[name] = digest
-    assert set(checksums) == expected and len(expected) == 44
+    assert set(checksums) == expected and len(expected) == len(data['skills']) + 2
     paths = [ROOT / 'dist' / name for name in sorted(expected)]
     paths.append(ROOT / 'dist/SHA256SUMS.txt')
     return paths
@@ -80,8 +84,8 @@ def main():
         page += 1
     matches = [release for release in releases if release['tag_name'] == TAG]
     assert len(matches) <= 1
-    title = 'RealtySkills v1.0.0 — 42 Real Estate AI Workflows by Evykynn'
-    notes = (ROOT / 'docs/release-notes-v1.0.0.md').read_text()
+    title = f'RealtySkills {TAG} — {len(DATA["skills"])} Real Estate AI Workflows by Evykynn'
+    notes = (ROOT / f'docs/maintainer/release-notes-{TAG}.md').read_text()
     notes += f'\nPublished from verified source commit `{commit}`. Release checks passed in GitHub Actions.\n'
     if matches:
         release = matches[0]
@@ -99,6 +103,18 @@ def main():
         page += 1
     by_name = {asset['name']: asset for asset in assets}
     assert len(by_name) == len(assets), 'Duplicate release asset names'
+    if not release['draft']:
+        if set(by_name) != {path.name for path in paths}:
+            raise SystemExit(f'{TAG} has a different inventory. Bump catalog.json version.')
+        for path in paths:
+            with urlopen(by_name[path.name]['browser_download_url'], timeout=120) as response:
+                public_bytes = response.read()
+            if public_bytes != path.read_bytes():
+                raise SystemExit(f'{TAG} differs from current source. Bump catalog.json version.')
+        print(f'Existing {TAG} anonymously verified; no release changes made.')
+        return
+    if set(by_name) - {path.name for path in paths}:
+        raise SystemExit('Unexpected draft assets require inspection before publication')
     upload_url = release['upload_url'].split('{', 1)[0]
     for path in paths:
         content = path.read_bytes()
@@ -108,19 +124,7 @@ def main():
             print('Already current:', path.name)
             continue
         if old:
-            if release['draft']:
-                raise SystemExit(f'Existing draft asset requires inspection before replacement: {path.name}')
-            # Preserve and inspect the old public bytes before replacing a matching named asset.
-            with urlopen(old['browser_download_url'], timeout=120) as response:
-                backup = response.read()
-            assert len(backup) == old['size'], 'Existing asset download incomplete'
-            backup_dir = ROOT / 'release-backups'
-            backup_dir.mkdir(exist_ok=True)
-            (backup_dir / path.name).write_bytes(backup)
-            if hashlib.sha256(backup).hexdigest() == hashlib.sha256(content).hexdigest():
-                print('Already current:', path.name)
-                continue
-            request(f"{base}/releases/assets/{old['id']}", 'DELETE')
+            raise SystemExit(f'Existing draft asset requires inspection before replacement: {path.name}')
         uploaded = request(upload_url + '?name=' + quote(path.name), 'POST', content,
                            'application/zip' if path.suffix == '.zip' else 'text/plain')
         assert uploaded['state'] == 'uploaded' and uploaded['size'] == len(content), path.name
@@ -128,7 +132,7 @@ def main():
             assert uploaded['digest'] == digest, path.name
         print('Uploaded:', path.name)
     final = request(f"{base}/releases/{release['id']}/assets?per_page=100")
-    assert {path.name for path in paths} <= {asset['name'] for asset in final}
+    assert {path.name for path in paths} == {asset['name'] for asset in final}
     published = request(f"{base}/releases/{release['id']}", 'PATCH',
                         {'name': title, 'body': notes, 'draft': False, 'prerelease': False,
                          'make_latest': 'true'})

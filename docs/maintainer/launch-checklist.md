@@ -6,12 +6,12 @@ Use the [verification record](verification.md) for observed results and the [pub
 
 ## Launch acceptance
 
-- 42 workflows under `skills/<category>/<skill>/`, nine categories, and seven archived versions.
+- 42 workflows under `skills/<category>/<skill>/`, nine categories, and seven retired-source provenance records.
 - RealtySkills branding and Evykynn public attribution, preserving the existing MIT copyright notice.
 - Supplied gold logo preserved; the minimalist banner and social-preview name use Evykynn.
 - No private history, credentials, caches, agent settings, `dist/`, or enclosing upload-helper folders in current source.
 - Passing **Library checks** and **Publish verified release** workflows.
-- Public `v1.0.0` release with 44 verified ZIPs and `SHA256SUMS.txt`.
+- Public `v1.0.1` release with 44 verified ZIPs and `SHA256SUMS.txt`.
 - Working README, category anchors, beginner guide, examples, and starter/detailed downloads.
 
 ## Presentation settings

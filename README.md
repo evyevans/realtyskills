@@ -28,9 +28,9 @@ A **skill** is a set of written instructions you give an AI assistant. It tells 
 
 ## Try your first skill
 
-1. **Choose a task** from the table below. Start with a **Starter** if you're new.
-2. **Give the instructions to your AI.** Open the linked file, copy its contents into a new chat, or download and attach it. On GitHub, use **Raw**, then your browser's save option. For a **Detailed** skill, also attach its linked `references/playbook.md` file.
-3. **Explain your task and provide the facts.** Ask the assistant to collect missing inputs, then review the result before using it.
+1. **Download the [one-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip)** and extract the ZIP.
+2. **Attach one Markdown guide** to a new AI chat. Choose a task below or in the [catalog](docs/catalog.md). Start with a Starter if you're new; Detailed guides include their supporting playbook in the same file.
+3. **Describe your task and provide the facts.** Ask the assistant to collect missing inputs, then review the result before using it.
 
 Try this with the Listing Content Starter:
 
@@ -86,8 +86,7 @@ The [full catalog](docs/catalog.md) includes inputs, outputs, jurisdiction, and 
 
 | Method | Best for | What to do |
 |---|---|---|
-| Copy or attach instructions | Trying a task in an AI chat | Follow the [beginner guide](docs/getting-started.md) |
-| Download a standalone chat guide | Keeping all instructions in one file | Download `realtyskills-chat-guides-v1.0.0.zip` from [Releases](https://github.com/evyevans/realtyskills/releases/latest), extract it, and attach one guide |
+| Download and attach one chat guide | Starting a task with complete instructions | Download `realtyskills-chat-guides-v1.0.1.zip` from [Releases](https://github.com/evyevans/realtyskills/releases/latest), extract it, and attach one guide |
 | Upload a Claude skill | Reusing a workflow in Claude | Upload an individual skill ZIP; see [installation](docs/installation.md#claude-skills-upload) |
 | Install for Claude Code or Codex | Working with an agent that can read local files | Copy a complete skill folder into its discovery directory; see [installation](docs/installation.md#local-agent-installation) |
 
@@ -95,7 +94,7 @@ The library is free. Your AI product may require a paid plan for particular tool
 
 ## Use in your market
 
-Many drafting and planning workflows can be adapted internationally. Active workflows use your actual location and terms. U.S. official references apply only where relevant; historical source examples remain in the archive. Every catalog entry identifies its jurisdiction; **1031 exchanges are US-only**. A US legal checklist does not become a Canadian or other local checklist just by changing the address.
+Many drafting and planning workflows can be adapted internationally. Active workflows use your actual location and terms. U.S. official references apply only where relevant; retired source copies remain only in Git history. Every catalog entry identifies its jurisdiction; **1031 exchanges are US-only**. A US legal checklist does not become a Canadian or other local checklist just by changing the address.
 
 Provide your country, state or province, currency, and units. Check current local requirements with qualified professionals. Market analysis needs dated data; forecasts need explicit assumptions. Legal and financial outputs are working drafts, not legal advice, tax advice, or compliance certification.
 
@@ -103,9 +102,11 @@ See [capabilities and limitations](docs/quality-and-limitations.md). Use fiction
 
 ## Built to be read, reused, and improved
 
-Every active folder contains a standard `SKILL.md` entry. The [individual revision audit](docs/skill-quality-audit.md) records the review of all 42 skills. Detailed playbooks live in `references/`. The [catalog](catalog.json) records all active entries and the [seven archived versions](archive/README.md). Automated checks verify packaging, metadata, internal links, and inventory consistency; they do not establish that AI answers are correct.
+Every active folder contains a standard `SKILL.md` entry. Detailed playbooks live in `references/`. The [catalog](catalog.json) records all active entries and seven retired source records for provenance. Automated checks verify packaging, metadata, internal links, and inventory consistency; they do not establish that AI answers are correct.
 
 Want to improve a workflow or add a market-specific version? Read [CONTRIBUTING.md](CONTRIBUTING.md), [report an issue](https://github.com/evyevans/realtyskills/issues/new/choose), or open a pull request. Please use synthetic examples and cite authoritative sources for jurisdiction-specific changes.
+
+Maintainer records, branding notes, launch drafts, source inventory, and publishing instructions are grouped in [maintainer documentation](docs/maintainer/README.md).
 
 ## About me
 

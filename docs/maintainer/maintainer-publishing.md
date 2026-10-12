@@ -21,11 +21,11 @@ Inspect the branch, remote, repository instructions, and existing changes before
 
 **Library checks** validates source updates. **Publish verified release** validates and builds 44 ZIPs, publishes them and `SHA256SUMS.txt` in Releases, and anonymously downloads and checksums every asset.
 
-The publishing job uses GitHub's repository token with `contents: write`. It needs no personal token stored in source. It runs on `main` when its workflow, publisher script, release notes, or verification record changes. It can also be run through **Actions → Publish verified release → Run workflow**.
+The publishing job uses GitHub's repository token with `contents: write`. It needs no personal token stored in source. It runs on `main` when skills, catalog, documentation, examples, assets, scripts, workflows, or public root files change. It can also be run through **Actions → Publish verified release → Run workflow**.
 
-The publisher inspects releases, keeps matching assets, and replaces only differing named downloads. Unknown assets remain untouched. Existing public assets are downloaded and inspected before replacement; backup bytes remain in the runner's `release-backups/` directory during the job. An existing draft with differing assets requires manual inspection. Any API error stops publication without retry.
+The release version comes from `catalog.json`. Before publishing a changed collection, bump that version and add `docs/maintainer/release-notes-v<version>.md`. Update versioned beginner download links and the changelog, regenerate the catalog, and run the checks. No publisher code change is needed for a normal version bump.
 
-The current publisher is explicitly for `v1.0.0`. For a new version, update the catalog, release notes, publisher version checks, filenames, and workflow concurrency group together.
+Published versions are immutable: matching assets may be verified on a repeat run, but differing bytes require a new version. Draft publication can resume with matching uploaded assets; a differing draft asset requires inspection. Any API error stops publication without retry. Older releases remain historical downloads; the latest release serves the current collection.
 
 ## Repository presentation
 

@@ -11,7 +11,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_FILES = ['README.md', 'LICENSE', 'CONTRIBUTING.md', 'CHANGELOG.md',
                 'catalog.json', 'requirements-dev.txt', '.gitignore']
-PUBLIC_DIRS = ['skills', 'docs', 'examples', 'archive', 'assets', 'scripts', '.github']
+PUBLIC_DIRS = ['skills', 'docs', 'examples', 'assets', 'scripts', '.github']
 
 
 def public_files():
@@ -83,18 +83,19 @@ def main():
                         raise ValueError(f'Package depends on an external local file: {target}')
         except (yaml.YAMLError, ValueError, TypeError, AttributeError) as error:
             errors.append(f'{skill["path"]}: {error}')
-    originals = [skill for skill in skills if 'source' in skill] + data['archive']
+    originals = [skill for skill in skills if 'source' in skill] + data['retired_sources']
     if len(originals) != 49 or len({item['source'] for item in originals}) != 49:
         errors.append('Original source accounting must include exactly 49 distinct files')
     for item in originals:
         if not re.fullmatch(r'[a-f0-9]{64}', item.get('source_sha256', '')):
             errors.append(f'Invalid original source hash: {item["source"]}')
-    for item in data['archive']:
-        if not (ROOT / item['path']).is_file():
-            errors.append(f'Missing archived file: {item["path"]}')
-    actual_archive = {str(path.relative_to(ROOT)) for path in (ROOT / 'archive/legacy-skills').glob('*.md')}
-    if actual_archive != {item['path'] for item in data['archive']}:
-        errors.append('Archived file inventory mismatch')
+    for item in data['retired_sources']:
+        if item.get('history_ref') != 'a12c7f4' or not item.get('historical_path', '').startswith('archive/legacy-skills/'):
+            errors.append('Invalid retired-source history record')
+        if 'path' in item or (ROOT / item['historical_path']).exists():
+            errors.append('Retired sources must not be present in the current collection')
+    if (ROOT / 'archive').exists():
+        errors.append('Legacy archive must not be included in the current collection')
 
     secret_patterns = [r'gh[pousr]_[A-Za-z0-9]{30,}', r'github_pat_[A-Za-z0-9_]{40,}',
                        r'sk-(?:proj-)?[A-Za-z0-9_-]{32,}',
@@ -127,7 +128,7 @@ def main():
     if errors:
         print('\n'.join(errors), file=sys.stderr)
         raise SystemExit(1)
-    print(f'Validated {len(skills)} active skills, {len(data["archive"])} archived files, '
+    print(f'Validated {len(skills)} active skills, {len(data["retired_sources"])} retired source records, '
           f'{len(data["categories"])} categories, 49 original mappings, metadata, local links, and credential patterns.')
 
 

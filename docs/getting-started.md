@@ -8,9 +8,11 @@ Choose a **Starter** from the [catalog](catalog.md). The [Listing Content Starte
 
 ## 2. Give your AI the instructions
 
-On GitHub, open the linked file, choose **Raw**, and copy the full text. Paste it into a new chat, or save the file and attach it using your assistant's file upload button. You can also extract a standalone Markdown guide from the chat-guide ZIP on the [release page](https://github.com/evyevans/realtyskills/releases/latest).
+Download [the one-file chat-guide bundle](https://github.com/evyevans/realtyskills/releases/download/v1.0.1/realtyskills-chat-guides-v1.0.1.zip), extract the ZIP, and attach the Markdown guide for your chosen task to a new chat. For the listing starter, choose `listing-description-engine.md`.
 
-For a **Detailed** entry, attach both `SKILL.md` and the `references/playbook.md` linked inside it. A chat attachment does not automatically fetch another file. The standalone release guide combines both, so only one attachment is needed. A local build exposes those files individually in `dist/standalone-guides/`. If only the entry is available, ask the assistant to follow its core workflow and explain any limitation.
+Every guide is complete: a Starter contains its focused instructions, and a Detailed guide also includes its supporting playbook. You only need one attachment. Then describe your task using the message below.
+
+If you prefer browsing source files, open the skill on GitHub and choose **Raw** to copy or save it. A Detailed source entry links to `references/playbook.md`; attach both source files when using that route. A chat attachment cannot automatically fetch its reference. A local build also provides complete files in `dist/standalone-guides/`.
 
 Paste this message after providing the instructions:
 

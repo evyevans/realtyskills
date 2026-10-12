@@ -15,7 +15,7 @@ def render(data):
         f"{len(skills)} active workflows across {len(categories)} categories. "
         'Use your browser’s Find feature to search for a task or audience.', '',
         '**Starter** is a focused workflow. **Detailed** is an extensive playbook. '
-        'For chat use, attach the entry and any linked playbook, or use the standalone release guide.', '',
+        'For chat use, download the chat-guide bundle, extract it, and attach one complete Markdown guide.', '',
         '[First-use guide](getting-started.md) · [Installation](installation.md) · '
         '[Connected workflows](workflows.md) · [Limitations](quality-and-limitations.md)', '',
     ]
@@ -30,7 +30,8 @@ def render(data):
         catalog.append('')
         for skill in sorted(group, key=lambda item: (item['level'] != 'Starter', item['title'])):
             catalog.extend([f"### {skill['title']}", '',
-                            f"[{skill['level']} instructions](../{skill['path']})", '',
+                            f"[{skill['level']} instructions](../{skill['path']}) · "
+                            f"[One-file chat guides](https://github.com/evyevans/realtyskills/releases/download/v{data['version']}/realtyskills-chat-guides-v{data['version']}.zip)", '',
                             f"- **Provide:** {skill['inputs']}.",
                             f"- **Receive:** {skill['output']}.",
                             f"- **Jurisdiction:** {skill['jurisdiction']}.",
@@ -50,15 +51,15 @@ def render(data):
                  '| Original file | Public workflow | Level |', '|---|---|---|']
     for skill in sorted(skills, key=lambda item: item.get('source', item['id'])):
         if 'source' in skill:
-            inventory.append(f"| `{skill['source']}` | [{skill['title']}](../{skill['path']}) | {skill['level']} |")
-    inventory.extend(['', '## Archived source mapping', '',
-                      '| Original file | Archived file |', '|---|---|'])
-    for item in data['archive']:
-        inventory.append(f"| `{item['source']}` | [{Path(item['path']).name}](../{item['path']}) |")
+            inventory.append(f"| `{skill['source']}` | [{skill['title']}](../../{skill['path']}) | {skill['level']} |")
+    inventory.extend(['', '## Retired source mapping', '',
+                      '| Original file | Historical path (removed) |', '|---|---|'])
+    for item in data['retired_sources']:
+        inventory.append(f"| `{item['source']}` | `{item['historical_path']}` |")
     inventory.extend(['', 'Machine-readable mappings and original SHA-256 hashes are in '
-                      '[catalog.json](../catalog.json). Archive files retain useful historical content '
-                      'with updated attribution and illustrative contacts; they are not active installation packages.', ''])
-    return {'docs/catalog.md': '\n'.join(catalog), 'docs/inventory.md': '\n'.join(inventory)}
+                      '[catalog.json](../../catalog.json). The seven retired copies are absent from current source and downloads. '
+                      'Their previous versions remain in Git history at commit `a12c7f4`.', ''])
+    return {'docs/catalog.md': '\n'.join(catalog), 'docs/maintainer/inventory.md': '\n'.join(inventory)}
 
 
 def main():

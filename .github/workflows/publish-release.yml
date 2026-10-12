@@ -4,17 +4,26 @@ on:
   push:
     branches: [main]
     paths:
-      - .github/workflows/publish-release.yml
-      - scripts/publish_release.py
-      - docs/release-notes-v1.0.0.md
-      - docs/verification.md
+      - 'skills/**'
+      - 'docs/**'
+      - 'examples/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - '.github/**'
+      - catalog.json
+      - README.md
+      - CHANGELOG.md
+      - CONTRIBUTING.md
+      - LICENSE
+      - requirements-dev.txt
+      - .gitignore
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: realtyskills-v1-release
+  group: realtyskills-release
   cancel-in-progress: false
 
 jobs:
@@ -33,6 +42,8 @@ jobs:
         run: python3 scripts/render_catalog.py --check
       - name: Validate library
         run: python3 scripts/validate_library.py
+      - name: Test release publication safeguards
+        run: python3 scripts/test_publish_release.py
       - name: Build verified downloads
         run: python3 scripts/build_releases.py
       - name: Verify release asset inventory
